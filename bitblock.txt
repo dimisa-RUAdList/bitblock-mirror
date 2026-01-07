@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +t3YqerDDs7ln2YO5Wy0tQ
-! Version: 202601071152
+! Checksum: h2m+6wQ62JpWlQZJKTECFA
+! Version: 202601071231
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Jan 2026 11:52 UTC
+! Last modified: 07 Jan 2026 12:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
