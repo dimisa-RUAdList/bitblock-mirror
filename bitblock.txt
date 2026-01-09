@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: n37K9Tj125frtP4ER4CF3Q
-! Version: 202601090651
+! Checksum: wLe4ukRMs1n60aZXctvaWg
+! Version: 202601090721
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Jan 2026 06:51 UTC
+! Last modified: 09 Jan 2026 07:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20167,7 +20167,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ||pageimprove.io^$third-party
 ||parse.ly^$third-party
 ||partner.dw.com^$third-party
-||pelcro.com^$third-party,domain=newsweek.com
 ||permalink-system.com^$third-party
 ||phoenix-widget.com^$third-party
 ||pippity.com^$third-party
