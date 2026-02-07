@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0VdEuwW3zxSF+Sgy2LrO0g
-! Version: 202602072131
+! Checksum: efFgCDhNgEXpWhhuCR9Qfg
+! Version: 202602072151
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Feb 2026 21:31 UTC
+! Last modified: 07 Feb 2026 21:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19016,6 +19016,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ! *** easylist:fanboy-addon/fanboy_annoyance_general_block.txt ***
 ! fanboy_annoyance_general_block.txt
 /1-popupally-pro-code.js
+/akam-sw.js
 /amp-apester-
 /arscode-ninja-popups/*$~stylesheet
 /copy_text.js
