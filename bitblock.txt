@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 40Di3NezWPCtuuA1n8wmdw
-! Version: 202602140951
+! Checksum: b3L0+eQA8+bX8sr7X7rSYA
+! Version: 202602141032
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 14 Feb 2026 09:51 UTC
+! Last modified: 14 Feb 2026 10:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1813,6 +1813,7 @@ kod.ru##.post > .subscribe + .section__title
 cxid.media##.post-banner
 radojuva.com.ua##.post-bodycopy > .bottomcontainerBox
 radiotrek.rv.ua##.post-caption-social
+3m2.ua##.post-content > .wp-block-quote-is-layout-flow
 report.if.ua#?#.post-content > h5:-abp-has(> a[href^="https://t.me/"])
 provce.ck.ua#?#.post-content > p:-abp-has(> [href*="//t.me/"])
 bitexpert.io#?#.post-content > span:-abp-contains(/^Подписывайтесь на новости/)
@@ -2391,7 +2392,7 @@ armflot.ru#?#.sp-column > .sp-module:-abp-has(#vk_groups)
 broadcast.net.ua##.sp-column > footer
 fakty.com.ua##.sp-read-social
 kinofilm.co##.sp_insta
-blackwot.ru,ukrhealth.net,weukraine.tv##.spc-social
+3m2.ua,blackwot.ru,ukrhealth.net,weukraine.tv##.spc-social
 pixelinform.com,sysidka.com##.spc-social-block
 slavinfo.dn.ua##.sppb-addon-social-media
 amd.online##.srochno
