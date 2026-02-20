@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 07Iu+FzxuhLSpnAElY5zbA
-! Version: 202602201102
+! Checksum: aO/CIINPLLsZ3tMUqRZ9BA
+! Version: 202602201131
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Feb 2026 11:02 UTC
+! Last modified: 20 Feb 2026 11:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7196,6 +7196,9 @@ cloud.mail.ru##[data-qa-tooltip="goto-attaches-promo-tip"]
 news.mail.ru##[data-reactroot] [data-qa^="MoreList"] > div > div:first-child:not(:only-child)
 e.mail.ru,octavius.mail.ru##[id^="octavius-notify-"]
 news.mail.ru#?#aside div[style^="min-height:"]:-abp-has([data-logger="SubscribeButton"])
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="Offer"])
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="Quota"])
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="WhatsNewDialog"])
 ~e.mail.ru,mail.ru##body > .grid .logo__promo-tooltip
 ~e.mail.ru,mail.ru##body > .tooltip > .tooltip__box
 mail.ru##body > .zeropixel ~ * .balloon
