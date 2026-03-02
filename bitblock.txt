@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YwTvxlNrKzVD64U6H+Au5g
-! Version: 202603021151
+! Checksum: PlW1oMJfRoEZbVtzyTJpxQ
+! Version: 202603021301
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 02 Mar 2026 11:51 UTC
+! Last modified: 02 Mar 2026 13:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2728,6 +2728,7 @@ zx-pk.ru##.yui-sidebar > [id^="widgetlist_column"] > li:not(:last-child)
 livesport.ru##.z_soc
 livecars.ru,livesport.ru##.z_tag_telegram
 livecars.ru,livesport.ru##.z_tag_vk
+news.ru##.zen-subscribe-btn
 zaks.ru##.zenblock
 musify.club##.zmdi-share
 kopilkasovetov.com##.zoom-social-icons-widget
@@ -4586,6 +4587,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||yandex.*/distr-popup.html$subdocument
 ||yandex.*maps/api/discoveryFeed/
 ||yastatic.net/*/gdpr/popup/
+||yastatic.net/*promozavr
 ||yastatic.net/s3/home/logos/doodle/$domain=ya.ru
 ||yastatic.net/yandex-video-player-iframe-api-bundles/*&from=kinopoisk&$subdocument,domain=www.kinopoisk.ru
 ||yastatic.net^*/widget_ya.js
