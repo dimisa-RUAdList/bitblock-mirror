@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: U1FTNDhpgndRbtm7gnTt3g
-! Version: 202603051601
+! Checksum: K4pFEVVgMYZl6JzKUsbU2w
+! Version: 202603051811
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Mar 2026 16:01 UTC
+! Last modified: 05 Mar 2026 18:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7558,7 +7558,7 @@ www.kinopoisk.*##header[style*="--header-height:"][style*="px"] > div > img:styl
 www.kinopoisk.*##header[style*="--header-height:"][style*="px"] div[class^="styles_logoContainer"] a[href*="utm_"]:not([href^="/"]):not([href^="www.kinopoisk.ru"]):style(pointer-events: none !important)
 ! Специфические только для ABP/AB правила
 !#if ext_abp
-tass.ru##div[class^="LoopChannelLayout_widget"]
+tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !#endif
 !
 ! - "Тяжёлая артиллерия" против хитрой рекламы --------------------------------
