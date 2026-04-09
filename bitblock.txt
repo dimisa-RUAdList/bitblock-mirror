@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cd7IQMFM/8jDfOOmH1coWw
-! Version: 202604090931
+! Checksum: 3HQdV+F65cdg4zwuxrYT4A
+! Version: 202604091031
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Apr 2026 09:31 UTC
+! Last modified: 09 Apr 2026 10:31 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2949,7 +2949,6 @@ aniu.ru##a[title="Наша группа вконтакте"]
 1kr.ua##a[title^="Instagram"]
 interfax.ru.interfax.ru,sport-interfax.ru##a[title^="Интерфакс в "]
 forbes.ru##a[title^="Подпишитесь на нас"]
-ngs55.ru##a[title^="Пст. Пойдем в "]
 baby.ru,fm-app.ru,tvapp.su,yootv.ru##a[title^="Телеграм"]
 360.ru##a[type="button"][style^="--icon-color:"]
 afisha.yandex.ru,afisha.yandex.*##div[data-component="Footer_Socials"]
@@ -3726,6 +3725,7 @@ _userbar_$image
 ##.fp-player .fp-min-age
 ##.has-brand .b-content__main [style^="height: 250px;"][style*="width: 680px;"]
 ##.has-brand .b-dwnapp
+##.has-brand .b-prem-button
 ##.has-brand .b-tophead__subscribe-dropdown
 ##.js-cookie-bar
 ##.js-cookie-container
@@ -4511,6 +4511,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||xyya.net/uploads/medals/
 ||ya.ru/design/$domain=ya.ru
 ||yandex.*/distr-popup.html$subdocument
+||yandex.*/portal/feed?
 ||yandex.*maps/api/discoveryFeed/
 ||yandex.*maps/api/ugc/getFriendsSuggest?
 ||yastatic.net/*/gdpr/popup/
