@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aI0lwvpmfg4ke1FfmYvf8Q
-! Version: 202604101222
+! Checksum: ihnU/qZfSQGatq032qES5A
+! Version: 202604101342
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 10 Apr 2026 12:22 UTC
+! Last modified: 10 Apr 2026 13:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6474,6 +6474,7 @@ taobao-forum.com##a[href^="http://taobao-forum.com/"] > img[src^="/banner/"]
 sports.ru##a[href^="http://www.sports.ru/fantasy/promo/"]
 detector.media##a[href^="https://docs.google.com/forms/"]
 secretmag.ru##a[href^="https://forms.gle/"]
+garant.ru##a[href^="https://go.garant.ru/"][href*="utm_campaign=lead-from-dri"]
 smi2.ru##a[href^="https://itunes.apple.com/"]
 agropolit.com,elevatorist.com,kurkul.com,superagronom.com,traktorist.ua,zemliak.com##a[href^="https://latifundist.com/pidtrimaj-latifundist"]
 nashvancouver.com##a[href^="https://nashvancouver.com/linkout/"] > img
@@ -18803,8 +18804,8 @@ tmstor.es#@#.top_social
 swingliteracy.com#@#.tve_social_items
 nothiefsallowed.com#@#.twitter-timeline
 google.com#@#SHARE-BUTTON
-geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,idolmaster-official.jp,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
-petsmart.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
+geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,idolmaster-official.jp,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ranking.sanrio.co.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
+petsmart.com,ranking.sanrio.co.jp#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"]
 ! *** easylist:fanboy-addon/fanboy_social_allowlist.txt ***
 ! fanboy_social_allowlist.txt
