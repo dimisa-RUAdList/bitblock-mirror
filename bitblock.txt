@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: z0QIlcBuvKDsqvpQXz+eJg
-! Version: 202605060922
+! Checksum: rxst0ighouIJciD8CugIJQ
+! Version: 202605061112
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 06 May 2026 09:22 UTC
+! Last modified: 06 May 2026 11:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2483,6 +2483,7 @@ potokmedia.ru##.td-is-sticky + .td-is-sticky > .wpb_wrapper > .td_block_wrap:fir
 potokmedia.ru##.td-is-sticky + .td-is-sticky > .wpb_wrapper > .td_block_wrap:first-child + .wpb_wrapper
 root-nation.com##.td-is-sticky .td_block_title
 prostomob.com#?#.td-is-sticky > .wpb_wrapper > .vc_row_inner:-abp-has(> div .tdb_single_post_share)
+botanichka.ru##.td-social-icon-wrap
 sochi24.tv##.tdb_header_date ~ div a[target="_blank"]
 mediasat.info##.tdc_zone > #tdi_8
 photar.ru##.tdm-popup-modal-open
@@ -3790,7 +3791,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ##body:not(Kinogo) #dle-content .reg-ad
 ##body:not(Kinogo) #dle-content .underPlayer::after
 ##body:not(Kinogo) #dle-content .video-block-strip
-##body:not(Kinogo) #dle-content [id^="uniq-"][class][style]
+##body:not(Kinogo) #dle-content [id^="uniq-"][class]
 ##body:not(Kinogo) .notino
 ##div[class^="app_gdpr"]
 ##div[id="redim-cookiehint"]
@@ -18782,7 +18783,9 @@ inman.com,simpletax.ca#@#.share-section
 locataire.dossierfacile.logement.gouv.fr#@#.share-title
 am800cklw.com#@#.share-tools
 card.discover.com#@#.share-widget
+xuexi365.com#@#.shareBox
 ranking.sanrio.co.jp#@#.shareButtons
+xuexi365.com#@#.shareCon
 taskernet.com#@#.shareGroup
 canva.com,edmtrain.com,facebook.com#@#.shareLink
 marianne.net#@#.share__item
