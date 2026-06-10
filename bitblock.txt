@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: R4DIj2zdk6FsxNMyD2no3A
-! Version: 202606101021
+! Checksum: mUg/IeNz0KwXY6qo1ym7Xw
+! Version: 202606101342
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 10 Jun 2026 10:21 UTC
+! Last modified: 10 Jun 2026 13:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3225,6 +3225,7 @@ sportsdaily.ru##div[class^="socialList_social_"]
 zarplata.ru##div[class^="socialbuttons"]
 dostfilms.org##div[class^="socnet"]
 zr.ru##div[class^="styled__SubscribeSocial"]
+diletant.media##div[class^="styles__SocialsWrapper-sc-"]
 sovsport.ru##div[class^="styles_footer-social-buttons-grid-item"]
 life.ru##div[class^="styles_shareWrapper_"]
 poltavawave.com.ua,sil.media##div[class^="styles_sharing_"]
@@ -5413,6 +5414,7 @@ liga.net##.donation-fixed
 liga.net##.donation-list-block
 risu.ua##.donation-popup-wrapper
 slk.kh.ua##.donation_block
+diletant.media##.donations-coin
 ansedo.com##.dont-kill-us-please
 gnatkovsky.com.ua##.donts
 silver.ru##.download-app-button-wrapper
@@ -6668,6 +6670,7 @@ igromania.ru,kanobu.ru##div[class^="LinkingButtonsOfArticle_root__"]
 auto.ru##div[class^="MatchApplicationBanner-"]
 loads.ati.su##div[class^="Media_container"]
 hromadske.radio##div[class^="ModalBanner"]
+diletant.media##div[class^="NavStyles__News-sc-"]
 rg.ru##div[class^="NewsFeed_adsTop_"] > div
 rg.ru##div[class^="PageIndexFascicles_download"]
 mail.rambler.ru##div[class^="Profile-banner"]
@@ -7301,6 +7304,7 @@ mail.yandex.ru,mail.yandex.*##.mail-Done-Promo-Container
 mail.yandex.ru,mail.yandex.*##.mail-YandexPlus-Renderer
 mail.yandex.ru,mail.yandex.*##.promoPanel
 mail.yandex.ru,mail.yandex.*##.search-result__item_type_neuro-promo
+mail.yandex.ru,mail.yandex.*##div[class*="MobileAppPromo-"]
 mail.yandex.ru,mail.yandex.*##div[class^="Banner-m__root"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##main.serp > .Root > div[class*="_layout_flat"]:not(.DistrPopup)
 market.yandex.ru,market.yandex.*##.main > noindex:first-of-type
