@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wNms2HvnjhlohkNuKkR8Jg
-! Version: 202606290702
+! Checksum: XUZuRo+AGUBM/YnegLV03A
+! Version: 202606291202
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Jun 2026 07:02 UTC
+! Last modified: 29 Jun 2026 12:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5585,6 +5585,7 @@ radojuva.com.ua##.header-image-container
 besplatnyeprogrammy.net##.header-inner > .pull-right
 hi-tech.ua##.header-login
 meestposhta.com.ua##.header-promo
+hdrezka.pl##.header-subscr-btn
 officelife.media##.header-top__subs
 stopcor.org##.headerMobileMenu_donate
 rayon.in.ua##.headerTop__nav-support
