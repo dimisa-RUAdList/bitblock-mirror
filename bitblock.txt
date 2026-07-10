@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UPwAOCGWaejMiI1DujyHWw
-! Version: 202607100742
+! Checksum: drdgZtLjY2o3N5IQd7KWIA
+! Version: 202607101032
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 10 Jul 2026 07:42 UTC
+! Last modified: 10 Jul 2026 10:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3136,6 +3136,7 @@ rg.ru##div[class*="EditorialHeader_contact"]
 mir24.tv##div[class*="InfoRowSocials"]
 igromania.ru,kanobu.ru##div[class*="ShareLinks_share"]
 ati.su##div[class*="SocialButtons"]
+live.vkvideo.ru##div[class*="StreamShareButton_root_"]
 rg.ru##div[class*="Video"][class*="_share"]
 matchtv.ru##div[class*="WidgetArticle__share"]
 mir24.tv##div[class*="__share__"]
