@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ybmWJaSrHU570H1lRSOGFw
-! Version: 202607120842
+! Checksum: aXupujtbFUL2u0iy3EISfw
+! Version: 202607121001
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Jul 2026 08:42 UTC
+! Last modified: 12 Jul 2026 10:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -943,6 +943,7 @@ blog.mycredit.ua##.blog-sidebar
 readmanga.ru##.bloghash-socials-menu
 fishki.net##.bloglinks
 vinbazar.com#?#.body_description p:-abp-has(> a[href^="https://t.me/"])
+pro-books.ru##.book-share-card__trigger
 readli.net##.book-socials
 knizhnik.org##.book__share
 game-monitor.com##.bookmark
