@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Tz4/8vOQSn8qi4VOlwmF+A
-! Version: 202607140722
+! Checksum: gmKMgkF67GJCVWfnET8dwQ
+! Version: 202607140912
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 14 Jul 2026 07:22 UTC
+! Last modified: 14 Jul 2026 09:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1931,6 +1931,7 @@ www.khl.ru##.rep-o-share
 appstudio.org##.repost td:not(.atropos)
 eba.com.ua##.research-shares
 speedtest.net##.result-item-share
+speedtest.ru##.result-link
 rusfootball.info##.rf_social
 benzin-price.ru##.right > [style="padding-bottom: 25px;"]
 lada.kz##.right-col > .section > .tabss
@@ -2242,7 +2243,7 @@ goha.ru##.social > *
 akniga.org##.social--link
 nashe.ru,radiojazzfm.ru,radioultra.ru,rockfm.ru##.social-additional
 expert.ru##.social-bl
-abw.by,defence-ua.com,football24.ua,oxu.az,sport24.ua##.social-block
+abw.by,defence-ua.com,football24.ua,info24.ru,oxu.az,sport24.ua##.social-block
 fireman.club##.social-block-bottom
 oxu.az##.social-block2 > p
 oxu.az##.social-block2 > ul > li > :not(.print-btn)
@@ -2300,6 +2301,7 @@ bizagro.com.ua,buhplatforma.com.ua,dzplatforma.com.ua,medplatforma.com.ua,oblikb
 championat.com,championat.ru,tengrinews.kz,ukrinform.ua,vesti.ru##.social-media
 kopilkasovetov.com##.social-media-area
 prokuzbass.ru##.social-media-buttons
+info24.ru##.social-media-items
 vesti.az##.social-media-wrap
 moika78.ru##.social-menu
 368.media##.social-nav-lg
@@ -6034,6 +6036,7 @@ uatv.ua##.rotation_banner
 animebesst.org##.row > .app-hidden
 nikcenter.org#?#.row[style^="padding-"]:-abp-has(.gsInformer)
 psbank.ru##.rui-cookie-consent
+speedtest.ru##.rustore-button
 delo.ua##.s-content__subscribe
 livejournal.com##.s-ljvideo
 superagronom.com##.sa_widget
