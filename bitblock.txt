@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UkmFjlEo60kSjVK16A5b9g
-! Version: 202607220542
+! Checksum: DCq7N+qk4xXPct7Y4zgoOA
+! Version: 202607220932
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Jul 2026 05:42 UTC
+! Last modified: 22 Jul 2026 09:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3829,6 +3829,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ~whatsapp.com##a[href^="whatsapp://send"]
 ##app-cookie-consent-popup
 ##body #cookie-policy
+##body:not(Kinogo) #dle-content .app-download
 ##body:not(Kinogo) #dle-content .reg-ad
 ##body:not(Kinogo) #dle-content .underPlayer::after
 ##body:not(Kinogo) #dle-content .video-block-strip
@@ -4233,6 +4234,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 /pum-site-styles-$stylesheet,domain=lhealth.info
 /push.js$script,domain=mail.ru
 /topics/all?limit=10&filter[type]=topic::news$domain=lenta.news|lenta.ru
+/web/vk_video_promo_block.$domain=vk.com|vk.ru
 /wp-content/plugins*popup-builder/*$domain=blackwot.ru|shotam.info
 /wp-content/plugins/icegram/*$domain=mos-holidays.ru
 ://s*.*ezka.*/i/hdrezka_premium_
@@ -4562,10 +4564,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||vesti.uz/wp-content/plugins/snow-flurry/
 ||vikna.if.ua/assets/js/jquery.cookie.js
 ||vitatv.com.ua/sites/default/files/info_images/google-news.
-||vk.com/dist/web/vk_video_promo_block.
-||vk.com/feed*.php?act=widget$xmlhttprequest,domain=mail.ru|youla.ru
-||vk.com/video_ext.php?*&autoplay=1$subdocument,domain=igromania.ru|kanobu.ru
-||vk.com/widget_post.php$domain=kritika24.ru
+||vk.*/feed*.php?act=widget$xmlhttprequest,domain=mail.ru|youla.ru
 ||vkplay.ru/hotbox/feedback/feedback-nps.js
 ||vkurske.com/gdpr_ajax/
 ||vlast.kz/images/VlastDonate.
@@ -5074,6 +5073,7 @@ tv3.ru##.app-cookie-agreement
 tickets.ua##.app-cookies
 evaclinic.by,evaclinicivf.by##.app-cookies__popup
 uteka.ru##.app-discount-mini-banner
+kinogo.online##.app-download
 lk.rt.ru##.app-header_banner
 likefm.ru##.app-links
 energyfm.ru##.app-list
@@ -6603,7 +6603,6 @@ vedomosti.ru##aside.article__sidebar
 disgustingmen.com##aside.widget
 kanobu.ru#?#aside:-abp-has(> button ~ div > iframe[src*="autoplay=1"])
 kanobu.ru#?#aside[class]:-abp-has(> iframe[src*="playercdn.cdnvideo.ru/aloha/players/igromania_player.html"])
-kanobu.ru#?#aside[class]:-abp-has(> iframe[src*="vk.com/video_ext.php?"][src*="&autoplay=1"])
 ua.news##aside[class^="promo"]
 bryansknovosti.ru,novozybkov.su##aside[data-alias^="Слева"] a > img[src*="/Подписка-"]
 epochtimes.com.ua##aside[style*="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;"]
