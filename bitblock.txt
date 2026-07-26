@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: U/haHCxk9gYjY+rZxKEHoA
-! Version: 202607252321
+! Checksum: 7RQzdtqEgNagz3dy7ARqjQ
+! Version: 202607260101
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Jul 2026 23:21 UTC
+! Last modified: 26 Jul 2026 01:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18906,6 +18906,7 @@ youtube.com#@#.show-share
 novelpia.com#@#.sns-btns
 chunithm.sega.jp#@#.sns-share
 oshiete.ai#@#.snsBox
+bambulab.com#@#.social-buttons-container
 nvidia.pl#@#.social-newsletter
 tuba.pl#@#.social-popup
 kingjamesbibleonline.org#@#.social-sec
