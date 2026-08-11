@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZIqSNwww6CeAS+/HkviKVA
-! Version: 202608111922
+! Checksum: Bx40kbfDJo22C/9Q1YI6dA
+! Version: 202608112012
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Aug 2026 19:22 UTC
+! Last modified: 11 Aug 2026 20:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2083,8 +2083,6 @@ torrents-soft.ru#?#.sid > .card:-abp-has(> center > a[href^="https://vk.com/"])
 weaponland.ru##.side > .bookmark
 foto.ua##.side-banner-social
 newdeaf.top##.side-bc > a#ng-padding[target="_blank"]
-redheadsound.studio##.side-block.first
-redheadsound.studio##.side-block.first + .side-block > div[class^="side-block__"]
 comx.life#?#.side-block:-abp-has(> .soc-channels)
 psychologies.ru##.side-block_soc-tabs
 gadgetstyle.com.ua#?#.side-blok:-abp-has(.twitter-timeline )
@@ -2168,7 +2166,7 @@ itc.ua,latuaitalia.ru##.sn
 rebenok.by##.sn-share-img-links
 itc.ua##.sn-widget
 piter.tv##.snet-links
-1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,itweek.ru,online-star.org,online-stars.org,planetanovosti.com,regions.ru,tourpom.ru,vokrugsveta.ru##.soc
+1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,itweek.ru,online-star.org,online-stars.org,planetanovosti.com,redheadsound.studio,regions.ru,tourpom.ru,vokrugsveta.ru##.soc
 vesti.kz##.soc > .h
 arpal.ua##.soc-aside
 povarenok.ru##.soc-bl-wrap
