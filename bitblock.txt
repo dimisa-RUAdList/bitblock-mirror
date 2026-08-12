@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JsQp0wyHaWbL+DgzeJOscg
-! Version: 202608121142
+! Checksum: 4NWTiQdljB2pX0xh3RfF+g
+! Version: 202608121322
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Aug 2026 11:42 UTC
+! Last modified: 12 Aug 2026 13:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3003,7 +3003,7 @@ aniu.ru##a[title="Наша группа вконтакте"]
 shkolazhizni.ru##a[title="Сообщество «ШколаЖизни.ру» ВКонтакте"]
 interface31.ru##a[title="Телеграм"]
 1kr.ua##a[title^="Instagram"]
-interfax.ru.interfax.ru,sport-interfax.ru##a[title^="Интерфакс в "]
+interfax.ru,sport-interfax.ru##a[title^="Интерфакс в "]
 forbes.ru##a[title^="Подпишитесь на нас"]
 baby.ru##a[title^="Телеграм"]
 360.ru##a[type="button"][style^="--icon-color:"]
@@ -7368,6 +7368,7 @@ mail.yandex.ru,mail.yandex.*##div[class*=" CornerPopup_body_"]
 mail.yandex.ru,mail.yandex.*##div[class*="MobileAppPromo-"]
 mail.yandex.ru,mail.yandex.*##div[class^="Banner-m__root"]
 mail.yandex.ru,mail.yandex.*##div[class^="SpaceInformer-m_"] > a.Orb-Button_view_brand
+ya.ru##main > div > div[data-hydration-id]
 market.yandex.ru,market.yandex.*##.main > noindex:first-of-type
 market.yandex.ru,market.yandex.*##.n-entrypoint-carousel
 market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="/RecomMediaAdv"]
