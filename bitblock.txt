@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JGihA1cfcJInNBY59ug1nA
-! Version: 202608270922
+! Checksum: +TiCx1ujArOOvBz/KAsycg
+! Version: 202608271941
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 Aug 2026 09:22 UTC
+! Last modified: 27 Aug 2026 19:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2637,6 +2637,7 @@ www1.ru##.topmenu > nav a[target="_blank"]
 golbis.com##.topmenu-icons
 interfax.ru,sport-interfax.ru##.topmenu__soc
 detector.media##.topmenu_link > [href*="facebook.com/"]
+tproger.ru##.tp-new-design-footer__social-network
 relax-fm.ru##.track-share
 videomore.ru##.track-shared
 hdru.net##.trailer > .leg
@@ -4565,8 +4566,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||tim-fm.tim.ua/mp3|$domain=prk.city
 ||tinypass.com^$third-party,domain=obozrevatel.com
 ||tnt-online.ru/accept_cookie.js
-||tproger.ru/_nuxt/CookieNotify.
-||tproger.ru/_nuxt/WidgetDigestSubscribe.
 ||track24.ru/newyear/
 ||tranceshop.ru^$image,domain=psy-music.ru
 ||tsargrad.tv/js/fly-news.js
@@ -7064,6 +7063,7 @@ www.kinopoisk.ru##.kinopoisk-header-suggest-item__sidebar-container
 www.kinopoisk.ru##.media-page-layout__trailer-promo
 www.kinopoisk.ru#?#.media-post-setka-inner-html > [data-ui-id="post"] > p > em.stk-reset:-abp-contains(на Кинопоиске в Плюсе)
 www.kinopoisk.ru##.styles_root__HSrFS
+www.kinopoisk.ru##.styles_visible__dortm
 widgets.kinopoisk.ru,www.kinopoisk.ru##:not([class*="styles_watchOnlineButtonPurchased"]):not([class*="watch-online-button"]) > [class*="watch-online-button"]
 www.kinopoisk.ru##[class*="branding-yandex-plus-button"]
 www.kinopoisk.ru##[class*="styles_plusDesktopBranding"]
