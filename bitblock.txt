@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ffI2Ne+EuhuJvlxz2UooMA
-! Version: 202608310722
+! Checksum: 1C5JEL+vFftTFtM731Vtjg
+! Version: 202608311513
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 31 Aug 2026 07:22 UTC
+! Last modified: 31 Aug 2026 15:13 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -748,6 +748,7 @@ mediaryazan.ru##.article > .anonsblock_title
 bst.bratsk.ru##.article ~ .block > .title-medium-container
 ichip.ru##.article-action
 ctrana.one,strana.news,strana.one,strana.today,stranaua.media,u-news.com.ua##.article-afterbody
+novyny.live##.article-author__follow
 delfi.lv##.article-body .shadow
 tvc.ru#?#.article-body > p:-abp-has(> strong > a[href^="https://t.me/"])
 5.ua#?#.article-body > p:-abp-has(a[href^="https://whatsapp.com/channel/"])
@@ -1476,6 +1477,7 @@ konkurent.ua##.ico_share
 kurs.if.ua##.icon-like::before
 livelib.ru,mymsk.online##.icon-share
 playua.net##.icon-share-b
+youtube.com##.icon-share_arrow
 ilenta.com##.icon-social
 byxatab.com##.icon-telegram-plane
 byxatab.com##.icon-vk
@@ -1664,6 +1666,7 @@ nazhyvo.kyiv.ua,pryluky.club##.mg-social
 orelgrad.ru#?#.mh-sidebar > .widget_text:-abp-has(> .textwidget > #vk_groups)
 theuk.one##.mini-social-buttons
 cubiq.ru##.mks_social_widget_ul
+liveinternet.ru##.mm-share
 vgorodekirove.ru##.mob_hide > .ai_c
 gamer-mods.ru##.mod-social-links
 kyiv-independent.com,wallnews.org##.modsocfooter
@@ -7606,17 +7609,38 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
-@@||g.alicdn.com/AWSC/fireyejs/*/fireyejs.js|$script,domain=aliexpress.ru
-fastpic.org,~new.fastpic.org##+js(remove-node-text, script, 'return;try')
+fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, EventTarget, inlineScript)
+fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, document.onclick, inlineScript)
+fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, onclick, inlineScript)
 liveinternet.ru##+js(prevent-addEventListener, load, AdvManager)
+fastpic.org,~new.fastpic.org##+js(remove-node-text, script, 'return;try')
+fastpic.org,~new.fastpic.org##+js(set-constant, HTMLHtmlElement.prototype.onclick, noopFunc)
+@@||g.alicdn.com/AWSC/fireyejs/*/fireyejs.js|$script,domain=aliexpress.ru
 ||crmared.com^$document
 ||dsazfk.com^$document
 ||dteifi.com^$document
 ||dtxelz.com^$document
+||dtyvtj.com^$document
 ||epicgameshubham.com^$document
+||eprdl.online^$document
+||exoclocks.com^$document
 ||goddess-game.com^$document
+||gptgirlfriend.online^$document
+||insta-cams.com^$document
+||metricaops.com^$document
+||myallz.com^$document
+||ouraidream.com^$document
+||ourdream.ai^$document
 ||redirectthisclick.com^$document
+||rttrk.com^$document
+||sexselector.com^$document
+||singleflirt.com^$document
+||spxxxtube.com^$document
 ||thtrck.com^$document
+||trackinginwtd.pro^$document
+||trytracklink.com^$document
+||unsightly-reserve.com^$document
+||vividkink.com^$document
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
