@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kTGRiI/J1N8zfVoMKfSrGg
-! Version: 202609011803
+! Checksum: ggt9tHPpiDdleUnx1HRGsA
+! Version: 202609012051
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Sep 2026 18:03 UTC
+! Last modified: 01 Sep 2026 20:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6695,6 +6695,7 @@ rambler.ru##circle[stroke-dashoffset]
 stroki.mts.ru##cookie-agreement
 1cont.ru##cookies-notice
 xuk.mobi##div > .center > noindex
+autonews.ru,rbcautonews.ru##div.app-link
 agents.media#?#div:-abp-has(> #trigger_donate)
 korsars.pro#?#div:-abp-has(> .med > [src*="://yoomoney.ru/"])
 dailystorm.ru#?#div:-abp-has(> .notice)
@@ -7615,10 +7616,12 @@ fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, onclick, inlineScript)
 liveinternet.ru##+js(prevent-addEventListener, load, AdvManager)
 fastpic.org,~new.fastpic.org##+js(remove-node-text, script, 'return;try')
 fastpic.org,~new.fastpic.org##+js(set-constant, HTMLHtmlElement.prototype.onclick, noopFunc)
+/splash.php?*fastpic$document
 @@||g.alicdn.com/AWSC/fireyejs/*/fireyejs.js|$script,domain=aliexpress.ru
 ||crmared.com^$document
 ||dsazfk.com^$document
 ||dteifi.com^$document
+||dttxqa.com^$document
 ||dtxelz.com^$document
 ||dtyvtj.com^$document
 ||epicgameshubham.com^$document
