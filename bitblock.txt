@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bI+cw9kNEonO4igUgGaJ/Q
-! Version: 202609100922
+! Checksum: 4o4Q2L/CWEbv/IfZWCvIgQ
+! Version: 202609101332
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 10 Sep 2026 09:22 UTC
+! Last modified: 10 Sep 2026 13:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -883,6 +883,7 @@ svpressa.ru##.b-top-header__socials
 gov-murman.ru##.b1t-soir-gdc-hl
 hvylya.net##.b__share--buttons
 politeka.net##.b__share-buttons
+gazeta.press,gazeta.ru##.b_header-social
 actualcomment.ru##.b_top__sitename_socnet
 reporter.ua##.banner > a[href^="https://t.me/"]
 vgoru.org##.banner--telegram
@@ -910,6 +911,7 @@ kosht.media##.bg-mint
 woman.ua##.bl-share
 ruwest.ru##.blk-socials
 habinfo.ru##.block-external
+ixbt.com##.block-market-social
 avtoradio.ru##.block-menu-snet > .icon-set
 autosport.com.ru,lgoty-vsem.ru,tehnikoved.ru##.block-share
 censor.net##.block-share-link
@@ -7605,18 +7607,20 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
-.html$third-party,popup,domain=fastpic.org|~new.fastpic.org
-/splash.php?*fastpic$document
-/splash.php?*fHBvcE1hZ2lj$document
-=*=*fastpic*%$document
 fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, HTMLAnchorElement.prototype.dispatchEvent, /blob|injectedScript|inlineScript/)
+2gis.by,2gis.kz,2gis.ru##._1nnq5pzj
+2gis.by,2gis.kz,2gis.ru##._fh8krf5
+.html$third-party,popup,domain=fastpic.org|~new.fastpic.org
+/splash.php?*fHBvcE1hZ2lj$document
+/splash.php?*fastpic$document
+=*=*fastpic*%$document
+link.softoroom.org##[href^="https://softoroom.org/link/jump.php"]
 fastpic.org,~new.fastpic.org##a[href*="/big/"]:remove-attr(target)
 fastpic.org,~new.fastpic.org##a[href*="/fullview/"]:remove-attr(target)
-link.softoroom.org##[href^="https://softoroom.org/link/jump.php"]
-liveball.*##+js(prevent-addEventListener, DOMContentLoaded, start)
-liveball.*##[data-noclick]:not(#player_block)
 www.kinopoisk.ru##div[class^="app__"] > div:not([class*="media"]):not([class*="content"]):first-child > div:first-child:style(min-height: 0 !important)
 www.kinopoisk.ru##div[class^="app__"] > div:not([class*="media"]):not([class*="content"]):first-child:style(min-height: 0 !important)
+liveball.*##+js(prevent-addEventListener, DOMContentLoaded, start)
+liveball.*##[data-noclick]:not(#player_block)
 ||lu-games.com^$document
 ||redirectthisclick.com^$document
 !
