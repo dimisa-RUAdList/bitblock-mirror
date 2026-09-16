@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AXlSi5amSZeKIW1e4QjEDw
-! Version: 202609161652
+! Checksum: +2MkTr/2HqA8gl6LB0bxkA
+! Version: 202609161952
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Sep 2026 16:52 UTC
+! Last modified: 16 Sep 2026 19:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1518,6 +1518,7 @@ ivi.ru,ivi.tv##.iviFooter__community
 blog.domclick.ru##.jMulq
 goal-time.net##.jbzoo-likes
 vgolos.ua##.join
+uaserial.tv##.join__telegram
 in-poland.com##.join_us
 ligazakon.net##.js--sharefixpromo
 nur.kz##.js-article-share
@@ -2525,6 +2526,7 @@ botanichka.ru##.td-social-icon-wrap
 sochi24.tv##.tdb_header_date ~ div a[target="_blank"]
 mediasat.info##.tdc_zone > #tdi_8
 photar.ru##.tdm-popup-modal-open
+agronom.com.ua##.tdm-social-item
 root-nation.com##.tdm_block_socials
 av.by##.teaser-telegram
 gecid.com##.tel
@@ -3090,6 +3092,7 @@ odnaminyta.com##aside > section:not([class]):first-child
 opennet.me,opennet.ru##aside > table > tbody > tr > td[align="right"][width="20%"]:last-child > a
 itsider.com.ua##aside div[class*="kpvmzjg"]
 vcrti.com.ua##aside#gkInset
+agronom.com.ua##aside#text-4
 com-x.life##aside.order-first
 bessarabiainform.com#?#aside:-abp-has(> .execphpwidget > iframe[src*="facebook.com"])
 meteovesti.ru#?#b:-abp-contains(Поделиться новостью)
@@ -5721,6 +5724,7 @@ no-steamserv.ru##.lc_area
 dfm.ru,hitfm.ru,maximum.ru,montecarlo.ru,rusradio.ru##.leading-none > a
 mix.tn.kz##.left > .checker
 firepic.org##.left_news_col
+kinogo.my,kinogohd.im,kinogomy.net,kinogoua.net##.leftblok_contener a[href*="/app.html"]
 vsekino.su##.lenta
 gdetraffic.com##.lets-subscribe
 volynua.com##.letsFollow
@@ -7617,8 +7621,13 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! ----
 agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
 agroreview.com,agroweek.com##.awb-slot
+.link/jal559hv?$third-party,xmlhttprequest
+dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
 /^https?:\/\/stratege\.ru\/misc\/[a-z0-9]{25,}/$image,domain=stratege.ru
+/tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
+mt.today##a.background
+mt.today##div[class$="-only"][style]
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
