@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RB8GP5s0WjUhx0iVLteoww
-! Version: 202609160641
+! Checksum: I60uplgsJYIA2vc7s2focQ
+! Version: 202609161202
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Sep 2026 06:41 UTC
+! Last modified: 16 Sep 2026 12:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7074,7 +7074,6 @@ www.kinopoisk.ru##.kinopoisk-header-suggest-item__sidebar-container
 www.kinopoisk.ru##.media-page-layout__trailer-promo
 www.kinopoisk.ru#?#.media-post-setka-inner-html > [data-ui-id="post"] > p > em.stk-reset:-abp-contains(на Кинопоиске в Плюсе)
 www.kinopoisk.ru##.styles_root__HSrFS
-www.kinopoisk.ru##.styles_visible__dortm
 widgets.kinopoisk.ru,www.kinopoisk.ru##:not([class*="styles_watchOnlineButtonPurchased"]):not([class*="watch-online-button"]) > [class*="watch-online-button"]
 www.kinopoisk.ru##[class*="branding-yandex-plus-button"]
 www.kinopoisk.ru##[class*="styles_plusDesktopBranding"]
@@ -7467,7 +7466,7 @@ e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
 mail.ru###grid .allow-overflow
 mail.ru###grid .widget__container .tgbv-wrapper
 mail.ru###grid:not(.grid) .widget__container ~ .widget__container > div:not([class*=" "])
-www.kinopoisk.ru###modal-container > [class^="styles_root_"] ~ div:not([class^="styles_modal_"]):not([class^="styles_overlay_"])
+www.kinopoisk.ru###modal-container > [class^="styles_root_"] ~ div:not([class^="styles_modal_"]):not([class^="styles_overlay_"]):not([class^="styles_touch"]):not([class^="styles_closeArea"])
 cloud.mail.ru#?##react-modals:-abp-has(a[href^="https://vk.cc/"])
 dzen.ru###ya-dist
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.AdvMastHead
