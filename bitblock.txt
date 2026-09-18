@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: efilLgn1sKbKeDbPn3DxZQ
-! Version: 202609172142
+! Checksum: MQcPWzbAynGkrm7n4Tp7Lg
+! Version: 202609172352
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Sep 2026 21:42 UTC
+! Last modified: 17 Sep 2026 23:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7620,14 +7620,18 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
 agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
+fastpic.org,~new.fastpic.org##+js(abort-on-property-read, MouseEvent)
+fastpic.org,~new.fastpic.org##+js(abort-on-property-read, document.dispatchEvent)
 agroreview.com,agroweek.com##.awb-slot
-.link/jal559hv?$third-party,xmlhttprequest
+.link/jvp0461jga?$third-party,xmlhttprequest
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
 /^https?:\/\/stratege\.ru\/misc\/[a-z0-9]{25,}/$image,domain=stratege.ru
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 mt.today##a.background
 mt.today##div[class$="-only"][style]
+||gogo.*.org/$third-party,media
+||ozzi.*.org/$third-party,media
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
