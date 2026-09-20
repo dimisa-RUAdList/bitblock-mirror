@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wFqOG9yICxq5CsqQ32/Ypg
-! Version: 202609201442
+! Checksum: bZZ19lj2UhoCqSVs/HYS8w
+! Version: 202609201742
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Sep 2026 14:42 UTC
+! Last modified: 20 Sep 2026 17:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4869,7 +4869,6 @@ kinodema.com###okno[href]
 vk.com,vk.ru,vkvideo.ru###old_browser_wrap
 fontanka.ru###onesignal-promt-target div[style^="max-height:"] > div[style^="max-height:"] > div:last-child
 fontanka.ru###onesignal-promt-target div[style^="max-height:"] > div[style^="max-height:"] > nav > div > div:last-child
-flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com###onetrust-consent-sdk
 che.cn.ua#?##ot-right .ot-mod-outer:-abp-has(#SinoptikInformer)
 autoclub-cerato.ru###outer_forum
 addons.opera.com,lockerz.com###overlay
@@ -6099,7 +6098,7 @@ sport-express.net,sport-express.ru##.se-footer-icons__youtube
 sport-express.net,sport-express.ru##.se-footer-mailing
 car.ru##.search-example
 lk.rt.ru##.season_theme_after_mobile
-flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##.selfPromo__box--apps
+flashscore.com.ua,flashscore.ua,flashscorekz.com,livescore.in##.selfPromo__box--apps
 nv.ua##.selfpromo_new
 prufy.ru##.send_news
 it-world.ru##.sender_detail--result
@@ -6818,7 +6817,6 @@ sundries.com.ua##div[class^="donat-"]
 chytomo.com,texty.org.ua##div[class^="donate-"]
 serii.net##div[class^="fmessage"]
 myfin.by##div[class^="foot"] .app-link
-flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##div[class^="footer__identity"]
 ib.online.gpb.ru#?#div[class^="gpb_internet_bank"][class*=" gpb_internet_bank"]:-abp-has(> [role="alert"])
 avito.ru##div[class^="items-banner-"]
 liga.net##div[class^="marketing-block-"]
@@ -7627,20 +7625,21 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
-fastpic.org#?##mainContainer:-abp-has(a[href*="/big/"] > img:not([src])) a[href*="html?info=1"]
-fastpic.org#?##mainContainer:-abp-has(a[href*="/fullview/"] > img:not([src])) a[href*="html?info=1"]
 agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
-fastpic.org,~new.fastpic.org##+js(abort-on-property-read, MouseEvent)
-fastpic.org,~new.fastpic.org##+js(abort-on-property-read, document.dispatchEvent)
 agroreview.com,agroweek.com##.awb-slot
 .link/yh1eo0l?$third-party,xmlhttprequest
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
-/^https?:\/\/stratege\.ru\/misc\/[a-z0-9]{25,}/$image,domain=stratege.ru
-/fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=img-src *.fastpic.org fastpic.org static.fastpic.ru
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 mt.today##a.background
+livetvstream.pro,me,online##body > #localpp[onclick*="window.open"]
+livetvstream.pro,me,online##body[bgcolor] > #adbtm
+livetvstream.pro,me,online##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
+livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
 mt.today##div[class$="-only"][style]
+||ii.apl*.me/js/pop.js|$script
+||ii.apl*.online/js/pop.js|$script
+||ii.apl*.pro/js/pop.js|$script
 ||krasnomaga.link^$third-party
 ||rubakaka.org^$third-party
 ||vertiguzha.link^$third-party
