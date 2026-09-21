@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qpbOAE5G+FztHIVwGpf3Ng
-! Version: 202609210702
+! Checksum: 6VPvgfx6EEynLlszagEovA
+! Version: 202609211405
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Sep 2026 07:02 UTC
+! Last modified: 21 Sep 2026 14:05 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3866,6 +3866,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ##body:not(Kinogo) #dle-content .video-block-strip
 ##body:not(Kinogo) #dle-content [id^="uniq-"][class]
 ##body:not(Kinogo) .notino
+##body:not(Kinogo) > div[class^="ad-branding"] ~ div .app-download
 ##div[class^="app_gdpr"]
 ##div[id="redim-cookiehint"]
 ##div[ng-if="popupCtrl.shouldShow"]
@@ -5234,6 +5235,7 @@ pravdatutnews.com##.banner-googlenews
 reklama-sev.com.ua##.banner-holder
 zaruba.fun##.banner-promotions-wrapper
 neg.by##.banner-search-system
+uteka.ru##.banner-slot
 get-styles.ru##.banner-up
 radiosvoboda.org##.banner[id^="GR-"]
 svoboda.org##.banner__a[class*="-link-"]
@@ -7627,22 +7629,35 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
+sportarena.ua###page > .nomobile:empty
 agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
+xsport.ua#?#.MuiBox-root:-abp-has(> .MuiStack-root + .MuiStack-root [rel*="sponsored"])
 agroreview.com,agroweek.com##.awb-slot
-.link/yh1eo0l?$third-party,xmlhttprequest
+sportarena.ua##.category__advertisement
+.link/nrybn33j9e?$third-party,xmlhttprequest
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
+tribuna.com##[data-menu-mainsections="casino"]
 mt.today##a.background
 livetvstream.pro,me,online##body > #localpp[onclick*="window.open"]
 livetvstream.pro,me,online##body[bgcolor] > #adbtm
 livetvstream.pro,me,online##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
 livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
 mt.today##div[class$="-only"][style]
+tribuna.com#?#div[class$="match_layout__left_column__main"] > div:-abp-has([href*="/betting/"])
+tribuna.com##div[class*="_match_page__chat_odds_wrapper"]
+tribuna.com##div[class*="_tournament-branding__empty-block"]
+tribuna.com#?#div[class^="MatchLayout-module__"][class$="__match_layout"] > [data-test]:-abp-has([href*="/betting/"])
+tribuna.com##div[class^="_tournaments-header__hero_"]
+livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
+||eugeniy.org^$third-party
+||fontmenice.com^$third-party
 ||ii.apl*.me/js/pop.js|$script
 ||ii.apl*.online/js/pop.js|$script
 ||ii.apl*.pro/js/pop.js|$script
 ||krasnomaga.link^$third-party
+||morozovnya.link^$third-party
 ||rubakaka.org^$third-party
 ||vertiguzha.link^$third-party
 !
