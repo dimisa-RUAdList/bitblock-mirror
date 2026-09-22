@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cpXeHRLMfORthPsuQIOW1Q
-! Version: 202609220612
+! Checksum: AvhLKyc/36e/w60jxzTX7A
+! Version: 202609221143
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Sep 2026 06:12 UTC
+! Last modified: 22 Sep 2026 11:43 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2403,7 +2403,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,1news.az,5koleso.ru,acmc.ua,agents.media,agrotimes.ua,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,hdrezka.inc,infox.ru,kanaldim.tv,komersant.ua,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,pravo.by,radioromantika.ru,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
+101.ru,1news.az,5koleso.ru,acmc.ua,agents.media,agrotimes.ua,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,hdrezka.inc,infox.ru,kanaldim.tv,komersant.ua,korrespondent.net,ku66.ru,kurs.if.ua,kyivpost.com,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,pravo.by,radioromantika.ru,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -2412,6 +2412,7 @@ novayagazeta.ru##.socials-block-style
 game2day.ru##.socials-net
 kinonews.ru##.socials-new
 k1news.ru##.socials-random-wrap
+kyivpost.com##.socials-share
 kino.tricolor.tv##.socials-share-block
 avtovzglyad.ru##.socials-subscription
 cryptonewsua.com,eadaily.com##.socials-wrapper
@@ -5535,6 +5536,7 @@ autopilot.ru,kommersant.ru##.fixed_bottom
 kisameev.ru##.fixed_cookie
 nalog.ru##.fixed_shortcut_vc
 informator.ua##.flex.post__subscribe-banner
+kyivpost.com##.flipboard-button
 ichip.ru##.float-subscribe
 playground.ru##.float-teaser
 searchengines.guru##.float-vertical-panel
@@ -7635,8 +7637,9 @@ xsport.ua#?#.MuiBox-root:-abp-has(> .MuiStack-root + .MuiStack-root [rel*="spons
 agroreview.com,agroweek.com##.awb-slot
 sportarena.ua##.category__advertisement
 .link/nrybn33j9e?$third-party,xmlhttprequest
+.link/zy6mjntx3ds?$third-party,xmlhttprequest
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
-vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
+vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 tribuna.com##[data-menu-mainsections="casino"]
 mt.today##a.background
@@ -7653,13 +7656,16 @@ tribuna.com##div[class^="_tournaments-header__hero_"]
 livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
 ||aj2663.bid^$third-party
 ||eugeniy.org^$third-party
+||evropidar.org^$third-party
 ||fontmenice.com^$third-party
 ||ii.apl*.me/js/pop.js|$script
 ||ii.apl*.online/js/pop.js|$script
 ||ii.apl*.pro/js/pop.js|$script
 ||krasnomaga.link^$third-party
 ||morozovnya.link^$third-party
+||nevalyashka.link^$third-party
 ||rubakaka.org^$third-party
+||strashnokrivo.org^$third-party
 ||vertiguzha.link^$third-party
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
