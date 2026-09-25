@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CBlpDTO8/h2fxIPTkJcGog
-! Version: 202609250422
+! Checksum: 0KbYNtQd//LOYXYSdAQhsQ
+! Version: 202609250932
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Sep 2026 04:22 UTC
+! Last modified: 25 Sep 2026 09:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2956,6 +2956,7 @@ kino.video,tasix.me##[onclick^="OpenShareWindow"]
 www.eg.ru##[onclick^="sh1"]
 livelib.ru##[onclick^="ub_share"]
 quiz.rambler.ru#?#[role="radiogroup"][aria-activedescendant] ~ div[style]:-abp-has(> div > .rambler-share)
+mirf.ru##[share-ic]
 readovka.news##[src="https://readovka.news/wp-content/themes/rd/img/banner.png"]
 planetanovosti.com##[title="Vkontakte"]
 conversion.im##[title="facebook"]
@@ -6394,7 +6395,7 @@ videoculinary.ru#?#.widget:-abp-has(> [class^="youtube_banner"])
 andro-news.com#?#.widget:-abp-has(> div > .subscribe)
 andro-news.com##.widget__content .google-play
 newformat.info##.widget__subscribe
-gsett.ru##.widget_custom_html
+geekcity.ru,gsett.ru##.widget_custom_html
 125region.ru#?#.widget_custom_html:-abp-has(> .textwidget > [id*="meteonova"])
 volyninfa.com.ua#?#.widget_custom_html:-abp-has(> div > #SinoptikInformer)
 hackware.ru,kali.tool##.widget_email-subscribers-form
@@ -7083,6 +7084,7 @@ shiza-project.com##ul[class*="transparent-btns"]
 !
 ! Kinopoisk
 www.kinopoisk.ru###editorial-format-block + div[style^="min-width:"][style*="1px"]
+www.kinopoisk.ru###modal-container > [class*="styles_visible_"][class*=" styles_noClick"]
 www.kinopoisk.ru###person-filmography-graph ~ div a[class*="style_buttonPlus"]
 www.kinopoisk.ru###popover-root > div > [class*=" styles_withChevronOn"]
 www.kinopoisk.ru###streaming-promo-block + [style^="min-width:"][style*="1px"]
@@ -7094,7 +7096,6 @@ www.kinopoisk.ru##.kinopoisk-header-suggest-item__sidebar-container
 www.kinopoisk.ru##.media-page-layout__trailer-promo
 www.kinopoisk.ru#?#.media-post-setka-inner-html > [data-ui-id="post"] > p > em.stk-reset:-abp-contains(на Кинопоиске в Плюсе)
 www.kinopoisk.ru##.styles_root__HSrFS
-www.kinopoisk.ru##.styles_visible__dortm[class*=" styles_noClick"]
 widgets.kinopoisk.ru,www.kinopoisk.ru##:not([class*="styles_watchOnlineButtonPurchased"]):not([class*="watch-online-button"]) > [class*="watch-online-button"]
 www.kinopoisk.ru##[class*="branding-yandex-plus-button"]
 www.kinopoisk.ru##[class*="styles_plusDesktopBranding"]
@@ -7664,9 +7665,9 @@ livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
 !
 ! запросы
 .link/$third-party,domain=tazaromikaz.link
-.link/y6jt3d?$third-party,xmlhttprequest
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 ||aj2663.bid^$third-party
+||balamutka.link^$third-party
 ||eugeniy.org^$third-party
 ||evropidar.org^$third-party
 ||fontmenice.com^$third-party
