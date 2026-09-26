@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k3eIpRuW5vxTbk5Vw+Mc9g
-! Version: 202609261352
+! Checksum: eMz3b6cSCehX0X2UjGXaHA
+! Version: 202609261732
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Sep 2026 13:52 UTC
+! Last modified: 26 Sep 2026 17:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7650,7 +7650,7 @@ tribuna.com##[data-menu-mainsections="casino"]
 shelter.in.ua##[style="height: 250px; opacity: 0;"]
 mt.today##a.background
 livetvstream.pro,me,online##body > #localpp[onclick*="window.open"]
-fcportables.com#?#body > div[id][class]:-abp-has([src*="/chp-ads-block-detector/")
+fcportables.com#?#body > div[id][class]:-abp-has([src*="/chp-ads-block-detector/"])
 livetvstream.pro,me,online##body[bgcolor] > #adbtm
 livetvstream.pro,me,online##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
 livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
