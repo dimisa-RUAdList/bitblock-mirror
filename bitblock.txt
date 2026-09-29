@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Uw7cS3pqdXgGjpR10sBEDQ
-! Version: 202609290642
+! Checksum: bSIKHwCEIRQgGjqF2eCSWQ
+! Version: 202609291313
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Sep 2026 06:42 UTC
+! Last modified: 29 Sep 2026 13:13 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7671,7 +7671,7 @@ epscape.*##.otk-slot
 livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
 !
 ! запросы
-.link/$third-party,domain=tazaromikaz.link
+.link/$third-party,domain=gorodyshka.link|player.temptcdn.com|tazaromikaz.link
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 ||aj2663.bid^$third-party
 ||balamutka.link^$third-party
@@ -7686,6 +7686,7 @@ livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
 ||krasnomaga.link^$third-party
 ||leningrib.org^$third-party
 ||morozovnya.link^$third-party
+||myagkotela.link^$third-party
 ||nevalyashka.link^$third-party
 ||pizzahuizza.org^$third-party
 ||ritsatv.ru/PLAYER/antiblok.js
