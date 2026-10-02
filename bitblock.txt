@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fJnt3yWp7Nglfds1abfE3g
-! Version: 202610012351
+! Checksum: xCy4dKab+ttjjrtdt+HRsw
+! Version: 202610020522
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Oct 2026 23:51 UTC
+! Last modified: 02 Oct 2026 05:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7652,6 +7652,7 @@ tabor.ru##+js(set-cookie-reload, cookie_accepted, 1)
 ||imgkcdn.com^$third-party
 ||myagkotela.link^$third-party
 ||pepyakanew.link^$third-party
+||pizhmagod.org^$third-party
 ||veselchaga.link^$third-party
 ||viieqcjw.com^$third-party
 ||yankimanki.org^$third-party
