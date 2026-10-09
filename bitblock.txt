@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x5O3aEV4anlzBeuaMTvyTQ
-! Version: 202610090632
+! Checksum: 5GX8PaaEAKUVt1w6AsOF1w
+! Version: 202610091342
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Oct 2026 06:32 UTC
+! Last modified: 09 Oct 2026 13:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -936,6 +936,7 @@ probiv.in,probiv.one##.block_tlg
 eurointegration.com.ua##.block_twitter
 probiv.in,probiv.one##.block_yootob
 gameguru.ru##.blockquote-telegram
+medvestnik.ru#?#.blocks-vertical:-abp-has(> div > .message)
 blog.rt.ru##.blog-footer__social-media
 travelask.ru##.blog-post__share
 blog.mycredit.ua##.blog-sidebar
@@ -6654,6 +6655,7 @@ it-actual.ru##article > footer > div[class]:not(.post-ratings)
 anitube.in.ua##article > noindex
 www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.com/"])
 rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container-"])
+ixbt.com#?#article footer > div:-abp-has(> [class] a[href*="google.com/preferences/source?"][class][target="_blank"])
 sports.ru#?#article.piwikTrackContent:-abp-has(a[href^="https://trbna.co/"])
 sports.ru#?#article.piwikTrackContent:-abp-has(span:-abp-contains(Спецпроект))
 pikabu.ru##article:not([data-author-name="PikabuGames"]) ~ article[data-author-name="PikabuGames"]
