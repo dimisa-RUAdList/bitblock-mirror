@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6oA9P+fRBl1jLXykYdV+RQ
-! Version: 202610150612
+! Checksum: vgft+EK4XLa8wBhIveip8w
+! Version: 202610151142
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Oct 2026 06:12 UTC
+! Last modified: 15 Oct 2026 11:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1666,6 +1666,7 @@ mixed.news##.menu_item__share
 forum.ixbt.com##.menu_list > [onclick^="return open_social"],.menu_list > .separator
 bhub.com.ua##.menu_soc
 harpersbazaar.com.ua##.menu_sub_item
+ixbt.com##.menucontainer .hidden > a[target="_blank"][rel="noopener noreferrer"][aria-label]
 pingvin.pro##.menusocicons
 xn--80aaukc.xn--j1amh##.meregi
 denzadnem.com.ua##.mes_header
@@ -7649,12 +7650,18 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 !
-! косметические правила
+! косметические правила и скриплеты
+fishki.net##+js(cookie-remover, video_autoplay_off)
 esports.ru##aside a[target="_blank"][rel="noindex nofollow"]
 !
 ! сетевые правила
 $third-party,media,domain=player.cdnvideohub.com
+||adsensei.ai^$third-party
+||bidderstack.com^$third-party
+||bringads.com^$third-party
 ||eykek.com^$popup
+||linkssp.ru^$third-party
+||plusani.me^$third-party
 ||radikal.host/aq*.js
 ||sparksvale.com^$popup
 ||wbbasket.ru/*/FullscreenBannerOnboardingViewModel.
