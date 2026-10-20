@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: U1j8IWOjnBEAQzta8HD4mA
-! Version: 202610200632
+! Checksum: Pe2a4kMEnC1NFhnkB3gj5Q
+! Version: 202610201203
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Oct 2026 06:32 UTC
+! Last modified: 20 Oct 2026 12:03 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7653,6 +7653,7 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 gk-press.if.ua###more-articles > .auto-load
+radar-map.ru##+js(abort-on-property-read, __adfinityLaunch)
 sn.by##.banner-list
 gk-press.if.ua##.site-content .some-widgets > a
 golossokal.com.ua##.stream-item-below-post-content > .stream-title
@@ -7665,9 +7666,11 @@ cfd##body > .wrapper > .brand
 cfd##body > .wrapper > div[class^="topAd"]
 !
 ! сетевые правила
-.link/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|tazaromikaz.link
+.link/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|shortener2.link|tazaromikaz.link
 /vast.js$domain=fenixplay.xyz|noodlemagazine.com|ukdevilz.com
 ||khitrozya.link^$third-party
+||pustobrya.link^$third-party
+||radar-map.ru/static/vendor/adfinity.js
 ||samograyka.link^$third-party
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
