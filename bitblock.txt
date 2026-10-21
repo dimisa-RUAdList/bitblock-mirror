@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: G757nwJ4oSJnmBkvZJygpQ
-! Version: 202610210622
+! Checksum: tErUEjz+X/qsnzWhSgBzNA
+! Version: 202610211212
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Oct 2026 06:22 UTC
+! Last modified: 21 Oct 2026 12:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1142,6 +1142,7 @@ kyivvlada.com.ua##.entry-footer > .icons
 fbm.ru##.entry-footer__share-title
 vikna.if.ua##.entry-in-social
 electrotests.ru,test24.wweek.ru,tests24.su##.entry-meta
+telegraf.in.ua##.entry-share
 eagleplatform.com##.eplayer-skin-share
 espanarusa.com##.er-h-social
 takprosto.cc##.essbis > :not(img)
@@ -1914,6 +1915,7 @@ nv.ua##.promo_telegram
 psm7.com##.psm-footer-social-container
 psm7.com##.psm-social-container
 filmhd1080.me##.psoc
+sport.rbc.ua##.pub-share
 sc2tv.ru##.publication-shares
 diletant.media##.publication__sidebar-inner_socials
 apostrophe.ua##.publication__social-text
@@ -1975,6 +1977,7 @@ lostfilm.info#?#.right:-abp-contains(Поделиться)
 mult-fan.tv##.rightBody a[href][title^="Наш"]
 fitfan.ru##.right_bar > a[href*="com/fitfan"][onclick]
 sibnet.ru#?#.right_column div[class^="block"]:-abp-has(> .bl_content > h3:-abp-contains(Мы Вконтакте))
+knigavuhe.org##.right_panel > .index_social_block ~ .index_social_block
 qrz.ru##.right_sidebar
 2mm.ru##.rightblock > .tabs
 mir-ved.ru##.rightcol
@@ -2503,6 +2506,7 @@ oxu.az##.subscribe-single-block
 ntv.ru##.subscribe-socials
 starhit.ru##.subscribe-us
 zaxid.net##.subscribe-wrap
+telegraf.in.ua##.subscribe-wrapper
 voennoedelo.com##.subscribeBtnsContainer
 portal.lviv.ua##.subscribe_social
 burdastyle.ru##.subscriber
@@ -5997,6 +6001,7 @@ cont.ws##.post_toolbar__meta
 cont.ws##.post_toolbar__promo
 korsars.pro##.post_wrap > center > font[size="14pt"]
 rustrek.ru##.poster
+rbc.ua##.preffered-button
 jut-su.net##.prembn
 textstudio.co##.premium-banner
 aniqit.com,kodik.cc,kodik.info,kodikdb.com,kodikplayer.com##.preview-confirmation
@@ -7674,6 +7679,7 @@ id.vk.ru##div[class^="AccidentResearchCell-"] section.vkuiBanner__host:style(dis
 ||pustobrya.link^$third-party
 ||radar-map.ru/static/vendor/adfinity.js
 ||samograyka.link^$third-party
+||skorobeyka.link^$third-party
 ||sosilapu.org^$third-party
 ||tikhomira.link^$third-party
 ||zhenivalka.link^$third-party
