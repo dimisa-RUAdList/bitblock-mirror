@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: g1QY6NOClQjEdi9KdOTRug
-! Version: 202610211722
+! Checksum: +/0bf6GlrRzRMNSTFSk+/A
+! Version: 202610212043
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Oct 2026 17:22 UTC
+! Last modified: 21 Oct 2026 20:43 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5368,6 +5368,7 @@ so-wiki.ru##.cn-Premium
 canyon.ua##.cn-cookies
 terabit.biz##.cnt2l
 nv.ua##.collection_form__container
+rbc.ru#?#.column-central-plus-side > div[id^="article-block-"] ~ div[id^="article-block-"] article > [class*="stroke"]:-abp-has(> [data-name] [href^="https://events.rbc.ru/"])
 silver.ru#?#.column:-abp-has(> div[class^="banner"]:first-child)
 sports.ru#?#.columns-layout__left > .aside-news-block:-abp-has(> h3 > [href*="/news/bet/"])
 prostotech.com##.comments > .content_adv
@@ -7678,6 +7679,7 @@ id.vk.ru##div[class^="AccidentResearchCell-"] section.vkuiBanner__host:style(dis
 ||beloboka.link^$third-party
 ||dolgoruka.link^$third-party
 ||khitrozya.link^$third-party
+||mudrobasa.link^$third-party
 ||pustobrya.link^$third-party
 ||radar-map.ru/static/vendor/adfinity.js
 ||samograyka.link^$third-party
