@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tErUEjz+X/qsnzWhSgBzNA
-! Version: 202610211212
+! Checksum: g1QY6NOClQjEdi9KdOTRug
+! Version: 202610211722
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Oct 2026 12:12 UTC
+! Last modified: 21 Oct 2026 17:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -200,6 +200,7 @@ ru##[data-ns-portal] button[aria-label="Добавить в закладки"]
 ru##[data-ns-portal] div[class*=" uiArticleBlockLinks_"]
 ru##[data-ns-portal] div[class^="blockSocial_"]
 ru##[data-ns-portal] div[class^="contactBlock_"][class*=" socialBlock_"]
+ru##[data-ns-portal] div[class^="sharing_"]
 com,ru,ua##[data-rambler-share]
 ##[data-rd-type="rd-post-view-social"]
 ##[data-test-id="share-button-copyLink"]
@@ -7675,6 +7676,7 @@ id.vk.ru##div[class^="AccidentResearchCell-"] section.vkuiBanner__host:style(dis
 .link/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|shortener2.link|tazaromikaz.link
 /vast.js$domain=fenixplay.xyz|noodlemagazine.com|ukdevilz.com
 ||beloboka.link^$third-party
+||dolgoruka.link^$third-party
 ||khitrozya.link^$third-party
 ||pustobrya.link^$third-party
 ||radar-map.ru/static/vendor/adfinity.js
