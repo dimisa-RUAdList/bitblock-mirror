@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: He0JsUYPEtgzfkeT5RX9lg
-! Version: 202610240621
+! Checksum: TxbNKDnNj/dpLsgwbXTqWw
+! Version: 202610241112
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 24 Oct 2026 06:21 UTC
+! Last modified: 24 Oct 2026 11:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1722,7 +1722,6 @@ nashemisto.dp.ua##.nav-socials
 kisameev.ru##.nav-tabs > li ~ li
 kinoafisha.info##.navBlock_social
 kuban24.tv##.navTopSocial
-ucrazy.org##.nav__share-list
 navigator-kirov.ru##.nav_soc-icons
 cheezu.ru#?#.navbar .text-body:-abp-contains(Поделиться)
 politeka.net##.navbar--links
@@ -2328,7 +2327,7 @@ mybrazz.club,prokazan.ru##.social-lines
 overclockers.ru,waifucards.app##.social-link
 polissia.news##.social-link a[rel="nofollow"]
 nv.ua##.social-link-circle
-animelayer.ru,astera.ru,autostadt.su,b-glife.ru,babla.ru,belkagomel.by,bidbaits.ru,bigkyiv.com.ua,bio-lessons.ru,cyberscore.live,delfi.lt,delfi.lv,dostyp.com.ua,energyfm.ru,glavnoe.in.ua,gmk.center,gtavicecity.ru,interfax.com.ua,intermedia.ru,kulturologia.ru,lada.kz,likefm.ru,minprom.ua,minsknews.by,mukachevo.net,news24.in.ua,novadoba.com.ua,odessamedia.net,podolyaka.com,podolyaka.ru,poebuilds.ru,radiozenit.ru,recept.ua,reporter64.ru,respawn.media,retrofm.ru,ruwiki.ru,snob.ru,sportarena.ua,sportkp.ru,sports.ru,sq.com.ua,te.ua,the-geek.ru,theageoffootball.com,theblueprint.ru,tvcenter.ru,tvr.by,utyug.info,varianty.lviv.ua,varta1.com.ua,vashsad.ua,vesti.ru,vsezdorovo.com,warhead.su,wotpack.ru,zakarpatpost.net,zazloo.ru##.social-links
+animelayer.ru,astera.ru,autostadt.su,b-glife.ru,babla.ru,belkagomel.by,bidbaits.ru,bigkyiv.com.ua,bio-lessons.ru,cyberscore.live,delfi.lt,delfi.lv,dostyp.com.ua,energyfm.ru,glavnoe.in.ua,gmk.center,gtavicecity.ru,interfax.com.ua,intermedia.ru,kulturologia.ru,lada.kz,likefm.ru,minprom.ua,minsknews.by,mukachevo.net,news24.in.ua,novadoba.com.ua,odessamedia.net,podolyaka.com,podolyaka.ru,poebuilds.ru,radiozenit.ru,recept.ua,reporter64.ru,respawn.media,retrofm.ru,ruwiki.ru,snob.ru,sportarena.ua,sportkp.ru,sports.ru,sq.com.ua,te.ua,the-geek.ru,theageoffootball.com,theblueprint.ru,tvcenter.ru,tvr.by,ucrazy.org,utyug.info,varianty.lviv.ua,varta1.com.ua,vashsad.ua,vesti.ru,vsezdorovo.com,warhead.su,wotpack.ru,zakarpatpost.net,zazloo.ru##.social-links
 minsknews.by##.social-links-custom
 mybrazz.club##.social-links-left
 matematika-doma.org##.social-links-module
@@ -4667,7 +4666,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 !#endif
 ! *** ruadlist:bitblock/annoyance_specific_hide.txt ***
 tadviser.ru###BottomSocial
-developers.sber.ru,giga.chat###GDPRBanner
 radiosvoboda.org###GR-1801
 krymr.com,svoboda.org###GR-COMBINED-BANNERS
 bigpicture.ru###GoTopX
@@ -5326,7 +5324,6 @@ pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.btn-danger
 hevcclub.com##.btn-outline-hevc
 bigmir.net,isport.ua,kolobok.ua##.btn-warning
 intent.press##.btn[href="/patreon/"]
-ucrazy.org##.btn__donate
 habr.com##.burger-button-wrapper > .hint-trigger-button
 vgoru.org##.button--head-support
 nashaniva.com##.button-donate
@@ -5406,8 +5403,6 @@ doramalive.news##.control-disclaimer
 avk.ua##.coocie-pop
 informator.ua##.coockies
 bild-shop.by##.coockies-info
-eridon.ua##.cook
-agroportal.ua,aniu.pro,aniuapp.ru,bsb.by,dw.com,eg.ru,hashrating.com,mdregion.com,myfin.by,novyny.live,nspk.ru,park-mobile.ru,sber.ru,stbank.by,svitroslyn.ua,wifire.tv,xn--80ahmohdapg.xn--80asehdb,xplode.ru##.cookie
 eplaza.ru,vnukovo.ru##.cookie-accept
 xhamster.com##.cookie-announce
 sviaz-expo.ru##.cookie-attention
@@ -7682,6 +7677,7 @@ rutube.ru##a[href*="erid="][target="_blank"]
 ixbt.com#?#div[class]:-abp-has(> [data-testid="yandex-id-button"])
 !
 ! сетевые правила
+||bystroglaza.link^$third-party
 ||dolgoruka.link^$third-party
 ||kruglyashka.link^$third-party
 ||kudroshapka.link^$third-party
@@ -7690,6 +7686,7 @@ ixbt.com#?#div[class]:-abp-has(> [data-testid="yandex-id-button"])
 ||ryabokoshka.link^$third-party
 ||sinebryuga.link^$third-party
 ||skorobeyka.link^$third-party
+||smertotmikrotikov.org^$third-party
 ||velogonshik.org^$third-party
 ||zhenivalka.link^$third-party
 ||zlatobryuga.link^$third-party
