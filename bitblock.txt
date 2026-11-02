@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5+7k+Gyxhn/Ytl08oUJ+Tw
-! Version: 202611020942
+! Checksum: oq5RK1YOxI/luhBUPyAM6w
+! Version: 202611021822
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 02 Nov 2026 09:42 UTC
+! Last modified: 02 Nov 2026 18:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2048,7 +2048,7 @@ filmstvclub.net##.serial-socials
 chudesniesovetiki.site##.sgwindow_socialicons
 online-mult.net##.sh_pt
 zi.ua##.shar-title
-024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,globus.ru,goha.ru,gov-murman.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ru,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,reshuent.ru,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,speedtest.net.ua,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.com,vgtimes.ru,vlast.kz,vm.ru,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,xv-ru.com,yakutiamedia.ru##.share
+024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,globus.ru,goha.ru,gov-murman.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,myfin.by,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ru,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,reshuent.ru,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,speedtest.net.ua,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.com,vgtimes.ru,vlast.kz,vm.ru,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,xv-ru.com,yakutiamedia.ru##.share
 my.kaspersky.com##.share > :not(.share-link)
 liwihelp.com##.share > a[onclick*="sharer"]
 krymr.com,radiosvoboda.org,svoboda.org##.share--box
@@ -5110,6 +5110,7 @@ kinoteatr.ru##.ad_bg
 kinoteatr.ru##.ad_bg_footer
 rosbalt.ru##.ad_tele
 meteo.ua##.add-favourites
+myfin.by##.add-source-to-google
 nakanune.ru##.add-to-yandex-link
 piter.tv##.add-ya
 tvcenter.ru##.add_source_news
@@ -7684,6 +7685,7 @@ russiatoday.ru###offers
 vk.com,vk.ru#?##spa_layout_content > div[style*="--vkui--z_index_popout"]:-abp-has([data-testid="feed_replaced_item_notify_modal"])
 russiatoday.ru###today-media-article
 hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##+js(abort-on-property-read, adOnClick)
+gamemag.ru##+js(abort-on-property-write, keepAdblock)
 russiatoday.ru##.Mirtesen-root
 2ip.io##.ad-container
 nikvesti.com##.adfree-strip
@@ -7694,6 +7696,7 @@ russiatoday.ru#?#.column__row_article-page_right:-abp-has(> div:empty)
 russiatoday.ru##.column__row_article-page_right:empty
 russiatoday.ru##.external-widget
 russiatoday.ru##.follows-channel_djen
+gamemag.ru##.gm-install
 russiatoday.ru##.hide--partner--block
 nikvesti.com##.nv-ad
 24tv.ua##.revive-block
@@ -7710,13 +7713,17 @@ vk.com,vk.ru#?#.vkuiInternalGroup--mode-card > [role="feed"] > article:-abp-has(
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-promo-post-hash])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header-coowners-title"])
 hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##body:style(background-color: #596c84 !important; background-image: none !important)
+igra.evroopt.by##body:style(overflow: auto !important)
 novosti-n.org,russiatoday.ru##div[class*="banner"]
 russiatoday.ru##div[class^="Popup-"]
 game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id*="gagah"]
 game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id^="page_"] > br
+myfin.by##html,body:style(overflow: auto !important; padding-right: 0 !important)
 !
 ! сетевые правила
+||b.myfin.by/x/?id=
 ||cdn.russiatoday.com/scripts/adfox/
+||myfin.by/ajax-communication/get-active-communication
 ||ru/content/stargate/*.gif$image,~third-party
 ||russiatoday.ru/nbc/
 ||russiatoday.ru/static/views/wMainBannerTop.
