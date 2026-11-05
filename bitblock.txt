@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: C5wI8zhXZR8RV7UNToI2WA
-! Version: 202611050852
+! Checksum: cEneEAIlNuGUN9JnPVcURg
+! Version: 202611051712
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Nov 2026 08:52 UTC
+! Last modified: 05 Nov 2026 17:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2692,6 +2692,7 @@ inforesist.org,yap.ru,yaplakal.com##.twitter-follow-button
 mediametrics.ru##.twitter-ico
 5-tv.ru##.twitterTimelineInSidebar
 joyreactor.cc,pornreactor.cc,reactor.cc##.uhead_share
+overclockers.ru#?#.ui.grid:-abp-has(> .column > .message > .telegram)
 gamegpu.com##.uk-float-right > .uk-panel a[href^="https://"] > img
 novate.ru##.ul_top > .li_site ~ li
 com-x.life##.un-actions > a[target="_blank"]
@@ -5396,7 +5397,6 @@ so-wiki.ru##.cn-Premium
 canyon.ua##.cn-cookies
 terabit.biz##.cnt2l
 nv.ua##.collection_form__container
-rbc.ru#?#.column-central-plus-side > div[id^="article-block-"] ~ div[id^="article-block-"] article > [class*="stroke"]:-abp-has(> [data-name] [href^="https://events.rbc.ru/"])
 silver.ru#?#.column:-abp-has(> div[class^="banner"]:first-child)
 sports.ru#?#.columns-layout__left > .aside-news-block:-abp-has(> h3 > [href*="/news/bet/"])
 prostotech.com##.comments > .content_adv
@@ -6688,6 +6688,7 @@ bet.ua##app-subscribe-form
 sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://specials.sports.ru/"])
 sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://trbna.co/"])
 animaunt.org##article > .sub-info > .button
+rbc.ru#?#article > [class*="stroke"]:-abp-has(> [data-name="VideoShowcase"])
 it-actual.ru##article > footer > div[class]:not(.post-ratings)
 anitube.in.ua##article > noindex
 www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.com/"])
@@ -7642,13 +7643,14 @@ translate.google.by,translate.google.com,translate.google.com.ua,translate.googl
 google.by,google.com,google.com.ua,google.kz,google.ru##.ctr-p #prm
 translate.google.by,translate.google.com,translate.google.com.ua,translate.google.kz,translate.google.ru,translate.google.se,translate.google.uz##.notification-area
 chrome.google.com,chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
-www.google.com##div[aria-labelledby="promo_label_id"]
+google.com##div[aria-labelledby="promo_label_id"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class$="__middle-slot-promo"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class][jsaction^="dismiss_warmup"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class^="gb_"] > div[aria-label="promo"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class^="gb_"] > div[style="behavior:url(#default#userData)"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class^="gb_"][data-ogsr-up] > div[style*="overflow: hidden;"][style*="position: absolute;"][style*="z-index: "][style*="overflow: hidden;"][style*="margin-right: 25px;"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[jscontroller] [href*="?utm_source=googlehpfooter"]
+google.com##g-bottom-sheet[aria-labelledby="promo_label_id"]
 google.by,google.com,google.com.ua,google.kz,google.ru##mobile-promo
 www.google.*##html[itemtype="http://schema.org/SearchResultsPage"][style^="top: "] #main > #cnt > #lb:has(update-location):style(display: none !important)
 www.google.*##html[itemtype="http://schema.org/SearchResultsPage"][style^="top: "]:style(overflow: auto !important; position: relative !important)
@@ -7691,6 +7693,7 @@ dp.ua##.ad
 championat.com,championat.ru##.banner-twz
 lenta.news,lenta.ru##.board__item._fonbet
 lenta.news,lenta.ru##.fonbetTopStickyBarWidget
+byrutgame.org##.game-window__open
 lenta.news,lenta.ru##.giveaway-banner
 oper.ru##.vip-banner
 igra.evroopt.by##body:style(overflow: auto !important)
@@ -7698,6 +7701,8 @@ myfin.by##html,body:style(overflow: auto !important; padding-right: 0 !important
 !
 ! сетевые правила
 ! news
+/yi5n0iht7?$third-party,xmlhttprequest
+||byrutgame.org/templates/byrut_upd/modules/game-window/
 ||championat.*/fenwick/
 ||lenta.*/assets/webpack/images/giveaway/$domain=lenta.news|lenta.ru
 !
