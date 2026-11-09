@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: a+r680qtJJZLj6Xb8aEVRw
-! Version: 202611091012
+! Checksum: Lx3rb529o055qBizp9qhcw
+! Version: 202611092042
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Nov 2026 10:12 UTC
+! Last modified: 09 Nov 2026 20:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3522,8 +3522,8 @@ dp73.spb.ru#?#p:-abp-has(> [alt^="Поделиться новостью"])
 ren.tv#?#p:-abp-has(> [href*="://max.ru/"])
 forklog.com#?#p:-abp-has(> a[href*="//telegram.me/"])
 onliner.by#?#p:-abp-has(> a[href*="://t.elegram.ru"])
-kp.ru#?#p:-abp-has(> a[href^="https://max.ru/"])
-2bitcoins.ru,carakoom.com,cheline.com.ua,click-or-die.ru,cursorinfo.co.il,dailylviv.com,fakty.ua,forklog.com,ghall.com.ua,hardwareluxx.ru,kp40.ru,nsn.fm,opentv.media,progorod59.ru,progoroduhta.ru,ria-m.tv,sportkp.ru,stb.ua,vikna.tv#?#p:-abp-has(> a[href^="https://t.me/"])
+kp.ru,sportsdaily.ru#?#p:-abp-has(> a[href^="https://max.ru/"])
+2bitcoins.ru,carakoom.com,cheline.com.ua,click-or-die.ru,cursorinfo.co.il,dailylviv.com,fakty.ua,forklog.com,ghall.com.ua,hardwareluxx.ru,kp40.ru,nsn.fm,opentv.media,progorod59.ru,progoroduhta.ru,ria-m.tv,sportkp.ru,sportsdaily.ru,stb.ua,vikna.tv#?#p:-abp-has(> a[href^="https://t.me/"])
 blitz.if.ua#?#p:-abp-has(> a[href^="https://web.telegram.org/"])
 agroxxi.ru,championat.com,championat.ru#?#p:-abp-has(> b > [href^="https://t.me/"])
 obozrevatel.com#?#p:-abp-has(> b > em > a[href*="://t.me/"])
@@ -3553,6 +3553,7 @@ kanalukraina.tv#?#p:-abp-has(> strong ~ a[href*="tg://resolve"])
 bst.bratsk.ru,prm.ua#?#p:-abp-has(> strong ~ a[href^="https://t.me/"])
 mobile-review.com,snookerist.ru#?#p:-abp-has(> strong:-abp-contains(/Мы в социальных сетях|Поделиться/))
 sud.ua#?#p:-abp-has(span a[href*="://t"][href*=".me/"])
+rambler.ru#?#p[id]:-abp-has(> a[href="https://max.ru/rambler"])
 acmc.ua#?#p[style="text-align: justify;"]:-abp-has(> span ~ span)
 winreviewer.com##p[style="text-align:center; padding 30px; background-color: #1A1A1A; color: #FFFFFF"]
 tvzvezda.ru#?#pjsdiv[id^="oframe"] pjsdiv:-abp-has(path[d^="M11.6051377"])
@@ -7701,14 +7702,17 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 nsk-tv.narod.ru##+js(abort-on-property-read, window.alert)
 fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
 dp.ua##.ad
+tass.ru##.banner
 championat.com,championat.ru##.banner-twz
 byrutgame.org##.game-window__open
 lenta.news,lenta.ru##.giveaway-banner
 rambler.ru#?#.slider-list > .slide:-abp-has(> div > div > [id^="capirs-"])
 oper.ru##.vip-banner
 lenta.news,lenta.ru##[class*="fonbet"]
+ru##[data-ns-portal] section[class*="topNewsBlock_"] > div[class^="list_"] > article > span[class^="index_"]
 igra.evroopt.by##body:style(overflow: auto !important)
 myfin.by##html,body:style(overflow: auto !important; padding-right: 0 !important)
+116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru#?#section[class*="topNewsBlock_"] > div[class^="list_"] > article:-abp-has(> div > a[href*="?erid="])
 !
 ! сетевые правила
 ! news
@@ -20449,6 +20453,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||usablenet.com^$third-party
 ||usefomo.com^$third-party
 ||userdatatrust.com^$third-party
+||vaticannews.va/widget.js
 ||vhmengine.com^$third-party
 ||vicomi.com^$third-party
 ||volomedia.com^$third-party
