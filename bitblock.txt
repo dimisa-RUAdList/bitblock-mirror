@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BJn03CxCEhlmMbNlD2gHfA
-! Version: 202611160852
+! Checksum: 5J2YZEqOSLnkKJxv45yIqQ
+! Version: 202611161904
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Nov 2026 08:52 UTC
+! Last modified: 16 Nov 2026 19:04 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -555,6 +555,7 @@ game-roblox.ru#?##secondary > .widget-wrap:-abp-has(> aside > div > [href*="://v
 winreviewer.com###secondary > .widget_links:first-child
 bessarabiainform.com###secondary > .widget_search ~ .widget_execphp
 easyfizika.ru,sekreti-domovodstva.ru,windakeys.ru###secondary > .widget_text
+sdelanounas.ru###sf-container
 ru-an.info###sgtabs
 artlebedev.ru###sh-likes
 gorodche.ru###sh1on
@@ -1160,6 +1161,7 @@ telegraf.in.ua##.entry-share
 eagleplatform.com##.eplayer-skin-share
 espanarusa.com##.er-h-social
 takprosto.cc##.essbis > :not(img)
+1tv.ru##.eump-control-share-social
 1tv.ru,mediavitrina.ru##.eump-share-social-items
 afishasakhcom.ru##.event-block-rating ~ div[style="float: left;"]
 vashdosug.ru##.evt-sharing__share
@@ -2191,6 +2193,7 @@ debaty.sumy.ua##.single_pluso_title
 game2day.org,game2day.ru##.single_socials
 naked-science.ru##.single_subscribe
 spartak.ru##.site--social
+sdelanounas.ru##.site-footer-social
 grippua.com.ua##.site-footer-top-section
 u24.ua##.site-header__social > a
 gorodche.ru##.site-header_social-btn[rel="noreferrer"]
@@ -2588,6 +2591,7 @@ new-magazine.ru##.telegram-feed
 htmlweb.ru##.telegram-groupe
 championat.asia,meteovesti.ru##.telegram-link
 1tv.od.ua##.telegram-link-block
+sdelanounas.ru##.telegram-note
 uaspectr.com##.telegram-notification
 368.media##.telegram-promo
 nauka.ua##.telegram-sticky-wrapper
@@ -3369,6 +3373,7 @@ cheezu.ru##div[jello-component="sharer"]
 slovoidilo.ua##div[style*="/home/telegram-"]
 novafilm.tv##div[style*="40px;"]:last-child
 my-calend.ru##div[style="background: #f6f6f6; padding: 12px; margin: 0 0 12px;"]
+sia.ru##div[style="clear: left; margin-top: 12px; display: inline-flex; align-items: center; gap: 5px;"]
 newsmsk.com##div[style="height: 120px; width: 240px;"]
 yap.ru,yaplakal.com##div[style="padding:6px;font-weight: 600;"][align="center"]
 stratege.ru##div[style="text-align: center;"] > a[href="https://vk.com/strategeru"]
@@ -7662,7 +7667,7 @@ google.by,google.com,google.com.ua,google.kz,google.ru##.chr-cookie-banner
 translate.google.by,translate.google.com,translate.google.com.ua,translate.google.kz,translate.google.ru,translate.google.se,translate.google.uz##.cp-promo
 google.by,google.com,google.com.ua,google.kz,google.ru##.ctr-p #prm
 translate.google.by,translate.google.com,translate.google.com.ua,translate.google.kz,translate.google.ru,translate.google.se,translate.google.uz##.notification-area
-chrome.google.com,chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
+chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
 google.com##div[aria-labelledby="promo_label_id"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class$="__middle-slot-promo"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class][jsaction^="dismiss_warmup"]
@@ -7671,6 +7676,7 @@ google.by,google.com,google.com.ua,google.kz,google.ru##div[class^="gb_"] > div[
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class^="gb_"][data-ogsr-up] > div[style*="overflow: hidden;"][style*="position: absolute;"][style*="z-index: "][style*="overflow: hidden;"][style*="margin-right: 25px;"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[jscontroller] [href*="?utm_source=googlehpfooter"]
 google.com##g-bottom-sheet[aria-labelledby="promo_label_id"]
+chromewebstore.google.com##iframe[role="presentation"][name="callout"][src="about:blank"]
 google.by,google.com,google.com.ua,google.kz,google.ru##mobile-promo
 www.google.*##html[itemtype="http://schema.org/SearchResultsPage"][style^="top: "] #main > #cnt > #lb:has(update-location):style(display: none !important)
 www.google.*##html[itemtype="http://schema.org/SearchResultsPage"][style^="top: "]:style(overflow: auto !important; position: relative !important)
@@ -7708,17 +7714,26 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 ! news
+sdelanounas.ru###SocialWelcome
+sdelanounas.ru###modalOverlay
+sdelanounas.ru##body:style(overflow-x: auto !important; position: initial !important)
+1tv.ru##div[class^="Branding_container_"]
+sdelanounas.ru##div[class^="banner_"]
+sdelanounas.ru##html:style(overflow-x: auto !important; position: initial !important)
+!
 www.onliner.by###js-pm > header [class]
+sia.ru###left_fixed_block-rand-1
 sovsport.ru###match-forecasts
 hentasis.me##+js(abort-on-property-read, ClickUndercookie)
 fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
 catalog.onliner.by##.catalog-banner
 rknweb.ru##.code-block
+sia.ru#?#.header:-abp-has(> h3 > a[href="/?section=519"])
 nv.ua##.main-wrapper .container > .row > a[target="_blank"] > picture
 sovsport.ru##.offers-carousel
 hcdn.online,hencdn.top##.video-js > [class][role="status"][aria-live="polite"]
 kingp2p.top##.wrap-overlay
-sovsport.ru##[class*="_sidebar"] > div[class*="_container"]
+sovsport.ru##[class*="_sidebar"] > div ~ div[class*="_container"]
 sports.ru##[data-control="Common.RbPromo"]
 onliner.by##[data-placement]
 sovsport.ru##[href*="/promo"]
@@ -7743,8 +7758,9 @@ sovsport.ru#?#div[class*="_mainPageContent"]:-abp-has(a[href*="/bookmaker"])
 sovsport.ru##div[class*="_notice"]
 sovsport.ru##div[class*="_predictions"]
 sovsport.ru##div[class*="_seoBlock"]
-sovsport.ru##div[class*="_widget"]
-c-o-k.ru##div[class*="banner"]
+sovsport.ru##div[class*="_widget"]:not([class*="_widgetNews"])
+sia.ru##div[class*="banana"]
+c-o-k.ru,sia.ru##div[class*="banner"]
 sovsport.ru##div[class*="coefficient"]
 sovsport.ru##div[class*="freeBet"]
 sovsport.ru##div[class*="partnerMark"]
@@ -7768,6 +7784,8 @@ sovsport.ru#?#ul[class*="_mediaList"] > li:-abp-has(a[href*="bookmaker"])
 ||fly.codes^$third-party
 ||gc.onliner.by/js/growthbook-*.js
 ||rapp.su/assets/js/player/counter.js
+||sia.ru/*/piroman_
+||sia.ru/files/b/
 ||site/rtr/$script
 ||sovsport.ru/api/proxy/api/promolink/
 ||strm.yandex.*/vh-adfo*-converted/$media
@@ -18788,6 +18806,7 @@ _social_footer_
 ##a[href^="https://www.pinterest.com/pin/create/link/"]
 ##a[href^="https://www.reddit.com/submit?"]
 ##a[href^="https://x.com/intent/follow?screen_name="]
+##a[href^="https://x.com/intent/tweet?"]
 ##a[href^="https://x.com/share?"]
 ##a[href^="whatsapp://send?text="]
 ##a[rel="share-on-facebook"]
