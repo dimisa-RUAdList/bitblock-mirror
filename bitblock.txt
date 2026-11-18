@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: j7NmSN/ciyKtDwSxsk0nLA
-! Version: 202611180905
+! Checksum: RMuzYmfTXHk8kjFDePjkuQ
+! Version: 202611181804
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 18 Nov 2026 09:05 UTC
+! Last modified: 18 Nov 2026 18:04 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4306,7 +4306,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 /_parallax.js$script,domain=news.mail.ru
 /alert.js$script,domain=news.mail.ru
 /api/*/feedback/nps/check$xmlhttprequest,domain=mail.ru
-/api/related/*?limit=$xmlhttprequest,domain=ixbt.com|ixbt.games
+/api/related/*?limit=$xmlhttprequest,domain=ixbt.com|ixbt.games|www1.ru
 /bootstrap.min.js$domain=cvnews.cv.ua|ifnews.org.ua|lvnews.org.ua|rvnews.rv.ua|tenews.org.ua|uanews.org.ua
 /control?path=_Common/PayWall&aid=$domain=gd.ru
 /controls/_common/paywall.js$domain=hr-director.ru|kdelo.ru|law.ru|normobr.ru|sekretaria.ru|spravkadrovika.ru
@@ -5427,6 +5427,7 @@ dopobr73.ru##.confirm
 pxtracker.org,vtracker.org##.confirm-blocked
 edgecenter.ru##.confirmed_cookie
 vin.gov.ua##.consent-block
+ixbt.com,ixbt.games#?#.contain-layout:-abp-has(> [class*="data-adv-component-empty"])
 imageban.ru#?#.container > .row:-abp-has(> div > a > [alt="Get it on Google Play"])
 howdyho.net##.container > .special
 slavyanskaya-kultura.ru##.containerban
@@ -6562,7 +6563,7 @@ my.ua##[data-policy-wrapper]
 5ka.ru##[data-qa="cookies"]
 livejournal.com,periskop.su,shakko.ru##[data-react-mark-10k-subscribers]
 livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[data-react-rcm-block]
-ixbt.com,ixbt.games##[data-related-block][class*="data-adv-component"]
+ixbt.com,ixbt.games,www1.ru##[data-related-block][class*="data-adv-component"]
 ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget="island"]:-abp-has(> div > [data-widget="seasonWidget"])
 mail.google.com##[data-rp-onramp-input]
 anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
@@ -6721,7 +6722,7 @@ it-actual.ru##article > footer > div[class]:not(.post-ratings)
 anitube.in.ua##article > noindex
 www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.com/"])
 rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container-"])
-ixbt.com#?#article p:-abp-has(> span > a[href*="google.com/preferences/source?"][class][target="_blank"])
+ixbt.com,ixbt.games,www1.ru#?#article p:-abp-has(> span > a[href*="google.com/preferences/source?"][class][target="_blank"])
 sports.ru#?#article.piwikTrackContent:-abp-has(a[href^="https://trbna.co/"])
 sports.ru#?#article.piwikTrackContent:-abp-has(span:-abp-contains(Спецпроект))
 pikabu.ru##article:not([data-author-name="PikabuGames"]) ~ article[data-author-name="PikabuGames"]
@@ -7307,6 +7308,7 @@ cloud.mail.ru#?#body > #react-modals:-abp-has(> div:only-child > [class*="WhatsN
 mail.ru##body > .zeropixel ~ * .balloon
 mail.ru##body > .zeropixel ~ * div .eventbar
 cloud.mail.ru##body > div[id^="cloud-"][class^="index_"]
+app.mail.ru##body > div[id^="wsconf-"]
 cloud.mail.ru##body > div[id^="wsconf-"][class^="index_"]
 ~e.mail.ru,mail.ru,sportmail.ru##body > div[style="top: 8px; left: 120px;"]
 sportmail.ru##div[article-item-type="conversionlink"]
@@ -7445,8 +7447,8 @@ dzen.ru##button[class*="short-viewer-layout__downloadButton"]
 calendar.yandex.ru,calendar.yandex.*###CalendarBanner
 calendar.yandex.ru,calendar.yandex.*##div[class^="MainBanner__wrap"]
 calendar.yandex.ru,calendar.yandex.*#?#div[class^="_BottomIconRoot_"]:-abp-has(> div > .promozavr-anchor-servicePremiumButton)
-calendar.yandex.ru,calendar.yandex.*,disk.yandex.ru,disk.yandex.*,docs.yandex.ru,docs.yandex.*##div[data-promo-name]
 calendar.yandex.ru,calendar.yandex.*,disk.yandex.ru,disk.yandex.*,docs.yandex.ru,docs.yandex.*,mail.yandex.ru,mail.yandex.*##.promozavr-anchor-servicePremiumButton
+calendar.yandex.ru,calendar.yandex.*,disk.yandex.ru,disk.yandex.*,docs.yandex.ru,docs.yandex.*,mail.yandex.ru,mail.yandex.*##div[data-promo-name]
 calendar.yandex.ru,mail.yandex.ru,calendar.yandex.*,mail.yandex.*##[data-test-id="promopopup"]
 disk.yandex.ru,disk.yandex.*##.app-promo-banner
 disk.yandex.ru,disk.yandex.*##.mail360-banner
@@ -7734,6 +7736,7 @@ sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="
 sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [href*="/bonuses"])
 sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [href*="/predictions"])
 1tv.ru##div[class^="Branding_container_"]
+igromania.ru##div[class^="HeaderPromo_"]
 sdelanounas.ru##div[class^="banner_"]
 www1.ru##div[id*="banner"]
 vk.com,vk.ru##div[role="main"] [data-feed-fpc-exclude]:not(:empty)
