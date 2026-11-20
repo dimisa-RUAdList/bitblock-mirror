@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nE1lSTfNIwy4I42kYXbe1g
-! Version: 202611200352
+! Checksum: dlcQkhG2llyjf1wUEXRS/g
+! Version: 202611201232
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Nov 2026 03:52 UTC
+! Last modified: 20 Nov 2026 12:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5985,6 +5985,7 @@ kp.kg,kp.kz,kp.ru,md.kp.media##.page-footer_subscribe
 svoboda.te.ua##.page-header [alt="Передплати свободу"]
 ppt.ru##.page-inner > .sub-article-sect-header
 xn--80ahmohdapg.xn--80asehdb##.page-notification
+pikabu.ru##.page-topic-links__link_promo
 bdf.ms##.pageContent > div[style^="outline"]
 rz.com.ua##.pane-simplenews
 arbatmedia.kz##.panel-like
@@ -7468,6 +7469,7 @@ dzen.ru##div[class*="auth-popup-feed-trigger__container-"]
 dzen.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class*="desktop-interview-modal"]
 dzen.ru##div[class*="linkBro-"]
 dzen.ru,sportsdzen.ru##div[class*="snackbar-context-provider"]
+dzen.ru##div[class*="stellas-promo-balance-sticker-"]
 dzen.ru##div[class*="web2app-advert-qr-banner__container"]
 360.yandex.ru##div[class^="TopLine_wrapper_"]
 dzen.ru##div[class^="card-actual-desktop__actualGrid"]
@@ -7475,6 +7477,7 @@ dzen.ru##div[class^="content--trap-popup__container"]
 dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > [id][data-itemid]:nth-child(-n+7) > [data-type="article"]
 dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > div:empty:nth-child(2) + [id][data-itemid]
 dzen.ru##div[class^="dzen-desktop--flash-modal"]
+dzen.ru##div[class^="dzen-desktop--predictions-push_"]
 dzen.ru##div[class^="dzen-desktop--trends-entry-"]
 dzen.ru##div[class^="feed-scrolling-snackbar__container"]
 dzen.ru##div[class^="float-interview__float-"]
@@ -7734,9 +7737,11 @@ sdelanounas.ru##body:style(overflow-x: auto !important; position: initial !impor
 sovsport.ru#?#div[class$="_grid"] > div[class*="_cell "]:-abp-has(> div:empty)
 sovsport.ru##div[class*="_matches"] > div[class*="_eventMatch"]
 sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [class*="_advertisement"])
+sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [href*="/bets/"])
 sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [href*="/bonuses"])
 sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [href*="/predictions"])
 1tv.ru##div[class^="Branding_container_"]
+igromania.ru##div[class^="GtaButton_button_"]
 igromania.ru##div[class^="HeaderPromo_"]
 sdelanounas.ru##div[class^="banner_"]
 www1.ru##div[id*="banner"]
