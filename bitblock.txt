@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: omAH3ZpzNSk+zO4XKsllvw
-! Version: 202611230222
+! Checksum: FXwQgWGAwsNMKBtx/egiwg
+! Version: 202611231103
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Nov 2026 02:22 UTC
+! Last modified: 23 Nov 2026 11:03 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6090,6 +6090,7 @@ shazoo.ru##.promo-button
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.promo-carousel
 hotline.ua##.promo-list-item
 cont.ws##.promo-posts
+smotrim.ru##.promo-registration
 klerk.ru##.promoTop-promotion
 metro-cc.ru##.promobanners-middle
 24smi.org##.promocode-logo
@@ -7730,6 +7731,8 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 ! news
+esports.ru#?#div:-abp-has(> img ~ a[href*="melbet.ru/"])
+!
 sdelanounas.ru###SocialWelcome
 kanobu.ru###__next > div > .bg-background > section[aria-label]
 shedevrum.ai###app > [class*="center"] > div[class]:style(height: unset !important)
