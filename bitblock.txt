@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8henfAIw9i4bv9ahcdQdwg
-! Version: 202611260252
+! Checksum: QnrIG9oyzNkYt83auCbFKw
+! Version: 202611261125
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Nov 2026 02:52 UTC
+! Last modified: 26 Nov 2026 11:25 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3912,6 +3912,7 @@ _userbar_$image
 ##.user_signature img
 ##.usersig img
 ##.youtube_box
+ru##[data-ns-portal] .nps-widget
 ru##[data-ns-portal] [data-bell-btn] > div[class*="animated"]
 ru##[data-ns-portal] [data-test="top-comment-user"] > .textBox_hjmay > .username_hjmay > div[class^="wrapper_"] > div[class^="wrapper_"]
 ru##[data-ns-portal] div[class^="mobileApps_"]
@@ -7734,7 +7735,10 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 ! news
+7kanal.co.il##.banner-top
+7kanal.co.il##.taboola
 igromania.ru#?#div[class^="Sidebar_sidebar_list_"] > .knb-card:-abp-has(> .knb-card--footer [class*="CategoryLabel_partner_"])
+kinozal.cloudns.nz##div[style="position: absolute; z-index: 99999"]
 liveball.*##+js(prevent-addEventListener, click, excluded)
 liveball.sx,liveball.*##.home-hero__chips
 liveball.sx,liveball.*##.home-seo
@@ -7746,6 +7750,8 @@ liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> a[target="_blank"])
 liveball.sx,liveball.*#?#.sm-card:-abp-has(> a[target="_blank"])
 popcornnews.ru##.horizontal-banner
 popcornnews.ru##.vertical-banner
+profinance.ru##a[href*="?erid="]
+radio.yandex.ru##div[class^="DefaultLayout-module-scss-module_"][class$="_bottomBar"]
 rutube.ru##.cookie-snackbar-module__snackbar
 rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
 rutube.ru##.wdp-system-notifications-toaster-module__root
@@ -7756,6 +7762,9 @@ rutube.ru##.wdp-system-notifications-toaster-module__root
 ||cdn.lbs.pw/st/
 ||lbs.pw/liveball/img/bc/
 ||lbs.pw/liveball/img/brand
+||profinance.ru/adv/
+||profinance.ru/andromeda/embed.js
+||profinance.ru/js/tgbnr.js
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
@@ -18757,6 +18766,7 @@ _social_footer_
 ##a[href^="https://www.facebook.com/share.php?"]
 ##a[href^="https://www.facebook.com/sharer.php?"]
 ##a[href^="https://www.facebook.com/sharer/sharer.php"]
+##a[href^="https://www.facebook.com/sharer?"]
 ##a[href^="https://www.google.com/preferences/source?q="]
 ##a[href^="https://www.linkedin.com/cws/share?"]
 ##a[href^="https://www.linkedin.com/shareArticle?"]
