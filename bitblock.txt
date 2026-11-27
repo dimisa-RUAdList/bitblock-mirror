@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6ZxXPeOq5+ZpBEOYTqjTxA
-! Version: 202611271304
+! Checksum: he9a5+WpUD48cucapA/DjA
+! Version: 202611272152
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 Nov 2026 13:04 UTC
+! Last modified: 27 Nov 2026 21:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2702,6 +2702,7 @@ broshunters.com##.twitter-block-container
 inforesist.org,yap.ru,yaplakal.com##.twitter-follow-button
 mediametrics.ru##.twitter-ico
 5-tv.ru##.twitterTimelineInSidebar
+shelter.in.ua##.u-custom-scroll a[target="_blank"][data-slot="link"][aria-label]
 joyreactor.cc,pornreactor.cc,reactor.cc##.uhead_share
 overclockers.ru#?#.ui.grid:-abp-has(> .column > .message > .telegram)
 gamegpu.com##.uk-float-right > .uk-panel a[href^="https://"] > img
@@ -7732,6 +7733,7 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 ! news
+euroauto.ru##.ad__badges
 7kanal.co.il##.banner-top
 rutube.ru##.cookie-snackbar-module__snackbar
 oil-club.ru##.extendedAd
@@ -7743,6 +7745,8 @@ rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
 7kanal.co.il##.taboola
 popcornnews.ru##.vertical-banner
 rutube.ru##.wdp-system-notifications-toaster-module__root
+2gis.ru,2gis.*###vpn-popup
+shelter.in.ua##[data-ad-slot]
 oil-club.ru##[data-blocktitle^="Реклама"]
 oil-club.ru##[data-ips-ad]
 gamegpu.com,overclockers.ua##a[href*="://allo.ua/"]:style(pointer-events: none !important; color: inherit !important)
@@ -7758,6 +7762,7 @@ gamegpu.com,overclockers.ua##a[href*="foxtrot.com.ua/"]:style(pointer-events: no
 profinance.ru##aside[aria-label="Реклама"]
 radio.yandex.ru##div[class^="DefaultLayout-module-scss-module_"][class$="_bottomBar"] > aside
 igromania.ru#?#div[class^="Sidebar_sidebar_list_"] > .knb-card:-abp-has(> .knb-card--footer [class*="CategoryLabel_partner_"])
+www.avito.ru##div[class^="ads-_"]
 kinozal.cloudns.nz##div[style="position: absolute; z-index: 99999"]
 igromania.ru##html.is-mobile div[class^="InTextTableOfContents_floatingButtonWrapper_"]
 liveball.*##+js(prevent-addEventListener, click, excluded)
